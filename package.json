@@ -11,6 +11,7 @@
     "dev": "remix vite:dev",
     "build": "remix vite:build",
     "start": "remix-serve ./build/server/index.js",
+    "start-env": "dotenv remix-serve ./build/server/index.js",
     "format": "prettier --write .",
     "format:repo": "npm run format && npm run lint:repo -- --fix",
     "lint": "eslint --max-warnings=0 --cache --cache-location ./node_modules/.cache/eslint .",

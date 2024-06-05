@@ -6,11 +6,6 @@ module.exports = {
   cacheDirectory: './node_modules/.cache/remix',
   ignoredRouteFiles: ['**/.*', '**/*.test.{js,jsx,ts,tsx}'],
   serverModuleFormat: 'cjs',
-  server:
-    !process.env.VERCEL || process.env.NODE_ENV === 'development'
-      ? undefined
-      : './build/index.js',
-
   // serverDependenciesToBundle: 'all',
   serverDependenciesToBundle: [
     '@phosphor-icons/react',

@@ -7,7 +7,7 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "npx remix build",
+    "build": "remix build",
     "dev": "remix dev",
     "format": "prettier --write .",
     "format:repo": "npm run format && npm run lint:repo -- --fix",

@@ -39,6 +39,31 @@ export default defineConfig({
         })
       },
     }),
+
     tsconfigPaths(),
   ],
+  ssr: {
+    external: [
+      '@phosphor-icons/react',
+      'datocms-structured-text-generic-html-renderer',
+      'datocms-structured-text-utils',
+      'dequal',
+      'react-datocms',
+      'react-intersection-observer',
+      'use-deep-compare-effect',
+      'react-photoswipe-gallery',
+      'photoswipe',
+      'photoswipe/dist/photoswipe.css',
+      'ssr-window',
+      'ssr-window/ssr-window.esm.js',
+      'dom7',
+      '@uidotdev/usehooks',
+      '@remix-run/react',
+      '@remix-run/node',
+      'remix-i18next',
+      'i18next-fs-backend',
+      'react-gtm-module',
+      'swiper',
+    ],
+  },
 })

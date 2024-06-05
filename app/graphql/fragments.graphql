@@ -1,0 +1,39 @@
+fragment responsiveImage on ResponsiveImage {
+  srcSet
+  webpSrcSet
+  sizes
+  src
+  width
+  height
+  aspectRatio
+  alt
+  title
+  base64
+}
+
+fragment movieCard on MovieRecord {
+  __typename
+  id
+  originalTitle
+  slug
+  topics {
+    name
+    slug
+  }
+  cover {
+    responsiveImage(
+      imgixParams: { fm: jpg, fit: crop, w: 1000, h: 1000, fpY: 0 }
+    ) {
+      srcSet
+      webpSrcSet
+      sizes
+      src
+      width
+      height
+      aspectRatio
+      alt
+      title
+      base64
+    }
+  }
+}

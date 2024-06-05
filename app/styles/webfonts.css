@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'loretta';
+  src:
+    url('/fonts/Loretta-MediumItalic.woff2') format('woff2'),
+    url('/fonts/Loretta-MediumItalic.woff') format('woff'),
+    url('/fonts/Loretta-MediumItalic.ttf') format('ttf');
+  font-display: auto;
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'loretta';
+  src:
+    url('/fonts/Loretta-Medium.woff2') format('woff2'),
+    url('/fonts/Loretta-Medium.woff') format('woff'),
+    url('/fonts/Loretta-Medium.ttf') format('ttf');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'area-normal';
+  src:
+    url('/fonts/AreaNormal-Regular.woff2') format('woff2'),
+    url('/fonts/AreaNormal-Regular.woff') format('woff'),
+    url('/fonts/AreaNormal-Regular.ttf') format('ttf');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'area-normal';
+  src:
+    url('/fonts/AreaNormal-RegularItalic.woff2') format('woff2'),
+    url('/fonts/AreaNormal-RegularItalic.woff') format('woff'),
+    url('/fonts/AreaNormal-RegularItalic.ttf') format('ttf');
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'area-normal';
+  src:
+    url('/fonts/AreaNormal-SemiBold.woff2') format('woff2'),
+    url('/fonts/AreaNormal-SemiBold.woff') format('woff'),
+    url('/fonts/AreaNormal-SemiBold.ttf') format('ttf');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'area-normal';
+  src:
+    url('/fonts/AreaNormal-SemiBoldItalic.woff2') format('woff2'),
+    url('/fonts/AreaNormal-SemiBoldItalic.woff') format('woff'),
+    url('/fonts/AreaNormal-SemiBoldItalic.ttf') format('ttf');
+  font-display: auto;
+  font-style: italic;
+  font-weight: 600;
+  font-stretch: normal;
+}

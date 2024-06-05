@@ -1,0 +1,2997 @@
+{
+  "skier": [
+    {
+      "title": {
+        "it": "Abitudini",
+        "en": "Habits"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quanto distante vivi dalla neve e da dove abitualmente pratichi attività con gli sci?",
+            "en": "How far do you travel and where do you usually go to ski?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.distance",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Meno di 10 km",
+              "Almeno 50 km",
+              "Almeno 100 km",
+              "200 km e più"
+            ],
+            "en": [
+              "Less than 10 km",
+              "At least 50 km",
+              "At least 100 km",
+              "200 km or more"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai una seconda casa in montagna?",
+            "en": "Do you have a vacation home in the mountains?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.secondHome",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì",
+              "No",
+              "La prendo in affitto",
+              "Abito in montagna",
+              "Sfrutto casa di parenti e/o amici",
+              "Ho un camper",
+              "Ho un furgone camperizzato"
+            ],
+            "en": [
+              "Yes",
+              "No",
+              "I do short-term rental",
+              "I live in the mountains",
+              "I use the house of a relative/friend",
+              "I have a camper",
+              "I have a camper van"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Dove pratichi solitamente scialpinismo?",
+            "en": "Where do you usually go ski mountaineering?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.locationHabits",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Quasi sempre nella stessa zona",
+              "Mi sposto a seconda di dove c'è neve migliore",
+              "Mi piace cambiare, scelgo ogni volta una destinazione diversa"
+            ],
+            "en": [
+              "Almost always in the same place",
+              "I go where I find the best snow",
+              "I like to change and pick a different destination every time"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Cosa ne pensi dei viaggi per sciare in Paesi stranieri?",
+            "en": "How do you feel about ski trips abroad?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.travelHabits",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Mi piacciono, cerco di farne uno o più all'anno",
+              "Non ho mai provato ma vorrei farlo",
+              "Non mi interessa",
+              "Non ho la compagnia giusta per organizzarmi",
+              "Costa troppo",
+              "Altro"
+            ],
+            "en": [
+              "I like them and try to go once or twice a year",
+              "I’ve never tried it, but I’d like to",
+              "Not interested",
+              "I don’t have the right travel companions",
+              "Costs too much",
+              "Other"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Come ti sei avvicinato allo scialpinismo?",
+            "en": "How did you get into ski mountaineering?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.approach",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Corso CAI",
+              "lezioni con una Guida alpina",
+              "Autodidatta",
+              "vengo dallo sci alpino in pista",
+              "Mi hanno avviato degli amici esperti"
+            ],
+            "en": [
+              "Ski school or club",
+              "lessons with an Alpine Guide",
+              "Self-taught",
+              "I came from downhill on groomed trails",
+              "Friends got me into it"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quante uscite fai con le pelli in un anno?",
+            "en": "How many skimo outings do you do in a year?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.outingsPerYear",
+          "helpText": {},
+          "choices": {
+            "it": ["Meno di 5", "Almeno 10", "Almeno 20", "30 e più"],
+            "en": ["Fewer than 5", "At least 10", "At least 20", "30 or more"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali condizioni devono esserci perché tu decida di uscire per fare una gita?",
+            "en": "What conditions do you need to decide to head out for some skimo?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.snowConditions",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Solo se c'è neve fresca",
+              "In tutte le condizioni purché ci sia sicurezza",
+              "Solo in primavera su nevi trasformate"
+            ],
+            "en": [
+              "Only if there’s fresh snow",
+              "Anytime, as long as it’s safe",
+              "Only in spring on transformed snow"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Saresti disposto a rivolgerti a un professionista per migliorare il tuo livello?",
+            "en": "Would you be willing to get with a professional instructor to improve your skill?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.instructor",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì a una Guida Alpina",
+              "Sì a un Maestro di sci",
+              "Sì a un istruttore di scialpinismo CAI",
+              "Sì a un preparatore atletico",
+              "No penso di cavarmela da solo",
+              "No chiedo aiuto ad amici"
+            ],
+            "en": [
+              "Yes, an Alpine Guide",
+              "Yes, a ski instructor",
+              "Yes, a local ski club",
+              "Yes, an athletic trainer",
+              "No, I think I can manage on my own",
+              "No, I have friends who can help"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali sono i tuoi prossimi obiettivi con gli sci?",
+            "en": "What are your near-term ski goals?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.goals",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Aumentare il dislivello che riesco a percorrere",
+              "Più velocità in discesa",
+              "Aggiornare la tecnica in chiave new school",
+              "Migliorare la tecnica in generale",
+              "Più tempo per gite e allenamento",
+              "Aumentare la difficoltà delle gite che posso affrontare",
+              "Viaggiare con gli sci in Italia e all'Estero",
+              "Sci ripido"
+            ],
+            "en": [
+              "Increase elevation gain I can handle",
+              "Increase descent speed",
+              "Learn the new-school techniques",
+              "Improve technique overall",
+              "Find more time for skiing and training",
+              "Increase the difficulty level I can handle",
+              "Take a ski vacation",
+              "Learn to ski steep terrain"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Come definiresti il tuo livello tecnico in montagna?",
+            "en": "How would you rate your technical ability in the mountains?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.technicalLevel",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Occasionale",
+              "Principiante",
+              "Media esperienza",
+              "Esperto",
+              "Professionista"
+            ],
+            "en": [
+              "Casual",
+              "Beginner",
+              "Intermediate experience",
+              "Expert",
+              "Professional"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Come ti definisci in quanto praticante di sport invernali?",
+            "en": "What would you call yourself when it comes to winter sports?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.sportsLevel",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Scialpinista",
+              "Sciatore",
+              "Freerider",
+              "Garista",
+              "Non mi piacciono le categorie"
+            ],
+            "en": [
+              "Ski mountaineer",
+              "Skier",
+              "Freerider",
+              "Competition skier",
+              "I don’t like labels"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali attività pratichi in montagna nel corso dell'anno?",
+            "en": "What mountain sports do you do throughout the year?"
+          },
+          "type": "multichoice",
+          "fieldName": "skier.mountainSports",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Scialpinismo",
+              "Sci alpino",
+              "Arrampicata",
+              "Alpinismo",
+              "Trekking",
+              "Trail Running",
+              "Skyrunning",
+              "Mountain Bike",
+              "Ciclismo su strada",
+              "Altro"
+            ],
+            "en": [
+              "Ski mountaineering",
+              "Alpine skiing",
+              "Climbing",
+              "Mountaineering",
+              "Hiking",
+              "Trail running",
+              "Skyrunning",
+              "Mountain biking",
+              "Road cycling",
+              "Other"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Condizioni della neve permettendo, quanto spesso scegli di sciare fuori pista rispetto alla pista battuta?",
+            "en": "Assuming good snow conditions, how often do you go off the groomed trails and do sidecountry?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.offPisteFrequency",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sempre",
+              "Spesso",
+              "Qualche volta (deve essere proprio bella)",
+              "Quasi mai"
+            ],
+            "en": [
+              "All the time",
+              "Often",
+              "Sometimes (only on really great snow)",
+              "Almost never"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale di queste qualità consideri prioritaria per praticare bene lo scialpinismo?",
+            "en": "Which of the following do you think is most important to enjoy ski mountaineering?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.quality",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sciare bene",
+              "Conoscere l'ambiente e la neve",
+              "Avere un ottimo allenamento in salita",
+              "Saper maneggiare bene l'attrezzatura"
+            ],
+            "en": [
+              "Skiing well",
+              "Familiarity with the snow and the environment",
+              "Excellent fitness for the climb",
+              "Knowing how to use your equipment well"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Attrezzatura",
+        "en": "Equipment"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "In quale categoria prodotto della Buyer’s Guide ti riconosci?",
+            "en": "Which product category in the Buyer’s Guide interests you most?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.category",
+          "helpText": {},
+          "choices": {
+            "it": ["Race", "Light", "Tour", "Free", "Splitboard", "Non saprei"],
+            "en": ["Race", "Light", "Tour", "Free", "Splitboard", "Not sure"]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai mai partecipato a un evento sulla neve con la possibilità di provare l’attrezzatura?",
+            "en": "Have you ever gone to an event where you can try new equipment on the snow?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.events",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì, è molto utile",
+              "No, non mi interessa",
+              "No ma mi piacerebbe"
+            ],
+            "en": [
+              "Yes, they’re very helpful",
+              "No, not interested",
+              "No, but I’d like to"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Da quale elemento del set parti se decidi di rinnovare la tua attrezzatura?",
+            "en": "Which component do you start with when updating your equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.equipmentUpdate",
+          "helpText": {},
+          "choices": {
+            "it": ["Sci", "Scarponi", "Attacchi"],
+            "en": ["Skis", "Boots", "Bindings"]
+          }
+        },
+        {
+          "question": {
+            "it": "Sei mai stato influenzato dal look o dall'immagine nella scelta di sci e scarponi?",
+            "en": "Are you ever influenced by aesthetics or brand image when choosing skis or boots?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.look",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Dove acquisti preferibilmente l’attrezzatura?",
+            "en": "Where do you like to buy your equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.purchaseLocationHabits",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Negozio specializzato",
+              "Grande distribuzione sportiva",
+              "Shop on-line",
+              "Shop on-line del marchio"
+            ],
+            "en": [
+              "Specialist shop",
+              "Major sports retailer",
+              "Online marketplace",
+              "Brand’s online store"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto sei disposto a spendere in attrezzatura ogni anno?",
+            "en": "How much are you willing to spend on equipment in one year?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.equipmentBudget",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Fino a 500 euro",
+              "Da 500 a 1000 euro",
+              "Da 1000 a 1500 euro",
+              "Fino a 2000 euro",
+              "Oltre 2000 euro"
+            ],
+            "en": [
+              "Up to EUR 500",
+              "from EUR 500 to 1000",
+              "from EUR 1000 to 1500",
+              "up to EUR 2000",
+              "more than EUR 2000"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai mai acquistato attrezzatura usata?",
+            "en": "Have you ever bought used equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.usedEquipment",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì, il set completo",
+              "No",
+              "Sì, gli sci",
+              "Sì, gli scarponi",
+              "No, ma ci sto pensando perché i costi del nuovo sono troppo elevati"
+            ],
+            "en": [
+              "Yes, complete set",
+              "No",
+              "Yes, skis",
+              "Yes, boots",
+              "No, but I’m considering it because new equipment costs too much"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto ti ha soddisfatto acquistare attrezzatura usata?",
+            "en": "How would you rate your satisfaction with used equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.usedEquipmentSatisfaction",
+          "helpText": {},
+          "choices": {
+            "it": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+            "en": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Acquisto",
+        "en": "Purchase"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Chi influenza maggiormente il tuo acquisto?",
+            "en": "What influences your buying decision most?"
+          },
+          "type": "multichoice",
+          "fieldName": "skier.purchaseInfluences",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "La Buyer’s Guide di Skialper",
+              "Blog/siti specializzati",
+              "Il consiglio di un amico",
+              "Corso CAI",
+              "Maestro di sci",
+              "Guida alpina",
+              "Negoziante",
+              "Social network"
+            ],
+            "en": [
+              "The Skialper Buyer’s Guide",
+              "specialist blogs/websites",
+              "The advice of a friend",
+              "Ski school or club",
+              "Ski instructor",
+              "Alpine guide",
+              "Shop clerk",
+              "Social media"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Potresti indicarci alcuni dei tuoi riferimenti (negozianti, siti, blog, pagine sui social, esperti di vario genere) sulle valutazioni d'acquisto?",
+            "en": "Would you mind specifying a few sources (e.g. shop, website, blog, social media account, other expert) that influence your buying decisions?"
+          },
+          "type": "text",
+          "fieldName": "skier.purchaseInfluencesOther",
+          "helpText": {}
+        },
+        {
+          "question": {
+            "it": "Hai seguito i consigli della nostra Buyer's Guide per l'acquisto della tua attrezzatura?",
+            "en": "Have you followed advice in our Buyer’s Guide when purchasing your equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.buyersGuideSuggestions",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "In parte"],
+            "en": ["Yes", "No", "In part"]
+          }
+        },
+        {
+          "question": {
+            "it": "Da 1 a 10, quanto ti sei ritrovato nelle nostre valutazioni dopo aver utilizzato l'attrezzatura per tutta la stagione?",
+            "en": "On a scale of 1 to 10, how much do you agree with our reviews after using the equipment for a full year?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.buyersGuideAgreement",
+          "helpText": {},
+          "choices": {
+            "it": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+            "en": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+          }
+        },
+        {
+          "question": {
+            "it": "Pensi che l'offerta delle aziende si stia evolvendo di pari passo con le esigenze di chi si muove in montagna con gli sci e le pelli?",
+            "en": "Do you think what companies make is evolving in sync with the evolving needs of ski mountaineers?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.evolution",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "Non ci ho mai riflettuto"],
+            "en": ["Yes", "No", "Haven’t though about it"]
+          }
+        },
+        {
+          "question": {
+            "it": "Pensi che il livello tecnico di chi frequenta la montagna stia evolvendo di pari passo con la proposta di materiali e attrezzatura delle aziende?",
+            "en": "Do you think the technical abilities of mountaineers are evolving at the same pace as the equipment and materials company’s are offering the market?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.technicalEvolution",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "Non ci ho mai riflettuto"],
+            "en": ["Yes", "No", "Haven’t though about it"]
+          }
+        },
+        {
+          "question": {
+            "it": "Segui i social network dei marchi di attrezzatura?",
+            "en": "Do you follow equipment makers on social media?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.socialNetworks",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Instagram",
+              "Facebook",
+              "Twitter",
+              "TikTok",
+              "YouTube",
+              "Non li seguo"
+            ],
+            "en": [
+              "Instagram",
+              "Facebook",
+              "Twitter",
+              "TikTok",
+              "YouTube",
+              "No, I don’t"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "La fedeltà a un marchio influenza le tue scelte d'acquisto?",
+            "en": "Does brand loyalty influence your buying decisions?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.brandLoyalty",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Indica almeno tre personaggi, tra pro skier, snowboarder, atleti, guide alpine, climber, alpinisti, trail runner, fotografi, scrittori o altri, che consideri di riferimento e di ispirazione per il tuo modo di vivere la montagna.",
+            "en": "Indicate at least three role models — who could be pro skiers, snowboarders, alpine guides, climbers, mountaineers, trail runners, photographers, writers, or other athletes or influencers — you look to for inspiration in how you approach the mountains."
+          },
+          "type": "text",
+          "fieldName": "skier.influencers",
+          "helpText": {}
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Sci",
+        "en": "Skis"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quante paia di sci utilizzabili possiedi?",
+            "en": "How many pairs of usable skis do you own?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.skisOwned",
+          "helpText": {},
+          "choices": {
+            "it": ["1", "2", "3", "4", "Più di 4"],
+            "en": ["1", "2", "3", "4", "More than 4"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali sono i fattori più importanti (fino a 3 risposte) quando acquisti un paio di sci?",
+            "en": "What are the most important factors you consider when buying skis (pick up to 3)?"
+          },
+          "type": "multichoice",
+          "fieldName": "skier.skisFactors",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Larghezza",
+              "Peso",
+              "Rocker/camber",
+              "Raggio di curva",
+              "Costruzione",
+              "Materiali",
+              "Prezzo",
+              "Moda"
+            ],
+            "en": [
+              "Width",
+              "Weight",
+              "Rocker/camber",
+              "Curve radius",
+              "Construction",
+              "Materials",
+              "Price",
+              "Fashion"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Qual è la tua larghezza al centro di riferimento?",
+            "en": "What’s your preferred ski waist width?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.waistWidth",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "70-80 mm",
+              "80-90 mm",
+              "90-100 mm",
+              "100-110 mm",
+              "Oltre 110 mm"
+            ],
+            "en": [
+              "70-80 mm",
+              "80-90 mm",
+              "90-100 mm",
+              "100-110 mm",
+              "More than 110 mm"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Qual è il tuo peso di riferimento?",
+            "en": "What ski weight do you prefer?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.weight",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Meno di un chilo",
+              "Tra un chilo e un chilo e mezzo",
+              "Fino a due chili"
+            ],
+            "en": [
+              "Below one kilo",
+              "Between 1 and 1.5 kilos",
+              "Up to two kilos"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Ogni quanti anni acquisti un paio di sci?",
+            "en": "How often do you buy skis?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.skisPurchaseFrequency",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Ogni anno",
+              "Ne compro più di uno all’anno",
+              "Ogni due anni",
+              "Ogni tre anni",
+              "Quando diventano inutilizzabili"
+            ],
+            "en": [
+              "Every year",
+              "More than once a year",
+              "Every two years",
+              "Every three years",
+              "When I can’t use my old ones anymore"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Scegli 3 marchi di cui acquisteresti volentieri un paio di sci nella prossima stagione?",
+            "en": "Select 3 brands of skis you would like to buy next season."
+          },
+          "type": "multichoice",
+          "fieldName": "skier.skisBrands",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Armada",
+              "Atomic",
+              "Black Crows",
+              "Black Diamond",
+              "Blizzard",
+              "DPS",
+              "Dynafit",
+              "Dynastar",
+              "Elan",
+              "Fischer",
+              "Hagan",
+              "Faction",
+              "K2",
+              "Kästle",
+              "Line",
+              "Majesty",
+              "Movement",
+              "Nordica",
+              "Ogso",
+              "Peak",
+              "Rossignol",
+              "Salomon",
+              "Scott",
+              "Ski Trab",
+              "Whiteland Ski",
+              "Völkl",
+              "Zag"
+            ],
+            "en": [
+              "Armada",
+              "Atomic",
+              "Black Crows",
+              "Black Diamond",
+              "Blizzard",
+              "DPS",
+              "Dynafit",
+              "Dynastar",
+              "Elan",
+              "Fischer",
+              "Hagan",
+              "Faction",
+              "K2",
+              "Kästle",
+              "Line",
+              "Majesty",
+              "Movement",
+              "Nordica",
+              "Ogso",
+              "Peak",
+              "Rossignol",
+              "Salomon",
+              "Scott",
+              "Ski Trab",
+              "Whiteland Ski",
+              "Völkl",
+              "Zag"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto spesso porti gli sci a fare manutenzione?",
+            "en": "How often do you take your skis in for maintenance?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.skisMaintenanceFrequency",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "A fine stagione",
+              "Mai, solo se sono rovinati",
+              "Almeno due volte a stagione",
+              "Più di due volte a stagione",
+              "Mai, la faccio da solo"
+            ],
+            "en": [
+              "At the end of each season",
+              "Never, only if absolutely necessary",
+              "At least twice each season",
+              "More than twice each season",
+              "Never, I do it myself"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Scarponi",
+        "en": "Boots"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quante paia di scarponi utilizzabili hai?",
+            "en": "How many pairs of usable ski boots do you own?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.bootsOwned",
+          "helpText": {},
+          "choices": {
+            "it": ["1", "2", "3", "4", "Più di 4"],
+            "en": ["1", "2", "3", "4", "More than 4"]
+          }
+        },
+        {
+          "question": {
+            "it": "Usi plantari specifici negli scarponi",
+            "en": "Do you use special insoles in your ski boots?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.insoles",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "Ne ho sentito parlare e vorrei provare"],
+            "en": ["Yes", "No", "I’ve been thinking about trying some"]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai mai sottoposto gli scarponi a interventi di termoformatura/bootfitting (scafo/scarpetta)?",
+            "en": "Have you ever had your ski boots custom fit (thermomolding of the shell or liner)?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.bootfitting",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali caratteristiche (fino a tre risposte) guardi prima di tutto quando acquisti uno scarpone?",
+            "en": "What characteristics are most important to you when buying a ski boot (select up to 3)?"
+          },
+          "type": "multichoice",
+          "fieldName": "skier.bootsFactors",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Peso",
+              "Mobilità gambetto",
+              "Flex",
+              "Last",
+              "Numero ganci",
+              "Ramponabilità",
+              "Materiali",
+              "Sistema ski/walk"
+            ],
+            "en": [
+              "Weight",
+              "Cuff mobility",
+              "Flex",
+              "Last",
+              "Number of buckles",
+              "Crampon compatibility",
+              "Materials",
+              "Walk mode"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Ogni quanti anni acquisti uno scarpone?",
+            "en": "How often do you buy ski boots?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.bootsPurchaseFrequency",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Ogni anno",
+              "Cerco di usare al massimo il mio",
+              "Ogni due anni",
+              "Ogni tre anni",
+              "Quando diventano inutilizzabili"
+            ],
+            "en": [
+              "Every year",
+              "I try to use mine as long as possible",
+              "Every two years",
+              "Every three years",
+              "When I can’t use my old ones anymore"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Scegli 3 marchi di cui acquisteresti volentieri un paio di scarponi nella prossima stagione?",
+            "en": "Select 3 brands of ski boots you would like to buy next season."
+          },
+          "type": "multichoice",
+          "fieldName": "skier.bootsBrands",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Atomic",
+              "Dalbello",
+              "Dynafit",
+              "Fischer",
+              "Hagan K2",
+              "La Sportiva",
+              "Lange",
+              "Nordica",
+              "Rossignol",
+              "Roxa",
+              "Salomon",
+              "Scarpa",
+              "Scott",
+              "Tecnica"
+            ],
+            "en": [
+              "Atomic",
+              "Dalbello",
+              "Dynafit",
+              "Fischer",
+              "Hagan K2",
+              "La Sportiva",
+              "Lange",
+              "Nordica",
+              "Rossignol",
+              "Roxa",
+              "Salomon",
+              "Scarpa",
+              "Scott",
+              "Tecnica"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Attacchi",
+        "en": "Bindings"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Che cosa cerchi in un attacco?",
+            "en": "What do you look for in a binding?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.bindingsFactors",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Leggerezza",
+              "Sicurezza",
+              "Non deve mai aprirsi per non perdere lo sci"
+            ],
+            "en": [
+              "Light weight",
+              "Safety",
+              "It should never open so I don’t look my skis"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale tipo di attacchi hai montato sugli sci che utilizzi regolarmente?",
+            "en": "What type of binding do you have on the skis you use the most?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.bindingsType",
+          "helpText": {},
+          "choices": {
+            "it": ["Full pin", "Ibridi", "Da gara", "A telaio"],
+            "en": ["Pin-tech", "Hybrid", "Race", "Frame"]
+          }
+        },
+        {
+          "question": {
+            "it": "Ogni quanti anni acquisti un paio di attacchi?",
+            "en": "How often do you buy a pair of bindings?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.bindingsPurchaseFrequency",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Ogni anno",
+              "Ne compro più di uno all’anno",
+              "Ogni due anni",
+              "Ogni tre anni",
+              "Quando diventano inutilizzabili"
+            ],
+            "en": [
+              "Every year",
+              "More than once a year",
+              "Every two years",
+              "Every three years",
+              "When I can’t use my old ones anymore"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Scegli 3 marchi di cui acquisteresti volentieri un paio di attacchi nella prossima stagione?",
+            "en": "Select 3 brands of ski bindings you would like to buy next season."
+          },
+          "type": "multichoice",
+          "fieldName": "skier.bindingsBrands",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "ATK Bindings",
+              "Atomic",
+              "Dynafit",
+              "Fritschi",
+              "G3",
+              "Grissly",
+              "Kreuzspitze",
+              "Marker",
+              "Plum",
+              "Salomon",
+              "Ski Trab"
+            ],
+            "en": [
+              "ATK Bindings",
+              "Atomic",
+              "Dynafit",
+              "Fritschi",
+              "G3",
+              "Grissly",
+              "Kreuzspitze",
+              "Marker",
+              "Plum",
+              "Salomon",
+              "Ski Trab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Pelli",
+        "en": "Skins"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quanta importanza dai alle pelli nel tuo set scialpinistico?",
+            "en": "How important are your climbing skins in your skimo kit?"
+          },
+          "type": "range",
+          "fieldName": "skier.skinsImportance",
+          "helpText": {},
+          "range": {
+            "min": "1"
+          }
+        },
+        {
+          "question": {
+            "it": "Quale tipologia di aggancio pelli preferisci?",
+            "en": "What type of connector do you prefer for your skins?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.skinsAttachment",
+          "helpText": {},
+          "choices": {
+            "it": ["solo anteriore", "anteriore e posteriore"],
+            "en": ["Tip only", "Tip and tail"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale di queste caratteristiche per te è più importante nelle pelli?",
+            "en": "Which of these characteristics is most important to you in your skins?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.skinsFactors",
+          "helpText": {},
+          "choices": {
+            "it": ["scorrevolezza", "tenuta", "tenuta estrema"],
+            "en": ["Glide", "Grip", "Extreme grip"]
+          }
+        },
+        {
+          "question": {
+            "it": "Nell'acquisto delle pelli, quale delle due soluzioni preferisci?",
+            "en": "Which of these two solutions do you prefer when buying climbing skins?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.skinsPurchaseSolution",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "un modello dal catalogo di un'azienda che produce solo pelli",
+              "pelli pre-formate proposte in abbinamento agli sci dalle aziende"
+            ],
+            "en": [
+              "A standard model from a specialist skin producer",
+              "precut skins that come with the skis"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Scegli 2 marchi di cui acquisteresti volentieri un set di pelli nella prossima stagione?",
+            "en": "Select 2 brands of climbing skins you would like to buy next season."
+          },
+          "type": "multichoice",
+          "fieldName": "skier.skinsBrands",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Colltex",
+              "Contour",
+              "G3",
+              "Kohla",
+              "Montana",
+              "Pomoca",
+              "Ski Trab"
+            ],
+            "en": [
+              "Colltex",
+              "Contour",
+              "G3",
+              "Kohla",
+              "Montana",
+              "Pomoca",
+              "Ski Trab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Bastoni",
+        "en": "Poles"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Che soluzione preferisci?",
+            "en": "Which do you prefer?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.polesType",
+          "helpText": {},
+          "choices": {
+            "it": ["2 pezzi regolabile", "fisso"],
+            "en": ["2-piece adjustable", "fixed-length"]
+          }
+        },
+        {
+          "question": {
+            "it": "Che caratteristica consideri fondamentale in un paio di bastoni?",
+            "en": "Which characteristic is essential for you in a pair of poles?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.polesFactors",
+          "helpText": {},
+          "choices": {
+            "it": ["leggerezza", "robustezza", "ergonomia nell'impugnatura"],
+            "en": ["Light weight", "Durability", "Ergonomic grip"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto consideri importante (da 1 a 10) la funzione dei bastoni nell'attività scialpinistica",
+            "en": "How important are the poles in ski mountaineering (from 1 to 10)?"
+          },
+          "type": "range",
+          "fieldName": "skier.polesImportance",
+          "helpText": {},
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Sicurezza",
+        "en": "Safety"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Utilizzi regolarmente artva, sonda e pala nelle tue gite?",
+            "en": "Do you normally carry a beacon, probe and shovel on your outings?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.safetyEquipment",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "Solo se vado in alta montagna"],
+            "en": ["Yes", "No", "Only when going to high altitudes"]
+          }
+        },
+        {
+          "question": {
+            "it": "Ti preoccupi dell'efficienza del tuo artva (aggiornamento software, pile ben cariche?)",
+            "en": "Do you regularly maintain your beacon (e.g. software updates, charged batteries)?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.beaconMaintenance",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "Dovrei starci più attento"],
+            "en": ["Yes", "No", "I need to be more careful"]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai mai partecipato a un campo artva o a un corso di ricerca dispersi in valanga?",
+            "en": "Have you ever participated in an avalanche rescue course or retreat?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.beaconCourse",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì, una volta",
+              "Sì, periodicamente per essere aggiornato",
+              "Mai",
+              "Mai, ma voglio farlo al più presto"
+            ],
+            "en": [
+              "Yes, once",
+              "Yes, now and then to stay up to date",
+              "Never",
+              "Never, but I want to soon"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale livello di rischio nella scala del bollettino valanghe consideri accettabile per uscire a fare una gita? ",
+            "en": "What level of risk as rated on the avalanche danger scale (5 being the highest) do you consider acceptable for an outing?"
+          },
+          "type": "range",
+          "fieldName": "skier.avalancheRisk",
+          "helpText": {},
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Quale caratteristica privilegi nell'acquisto di un artva?",
+            "en": "What feature is most important when buying a beacon?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.beaconFactors",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Digitale e non analogico",
+              "top di gamma",
+              "che sia economico",
+              "facilità di utilizzo",
+              "portata",
+              "dimensioni contenute"
+            ],
+            "en": [
+              "Digital, non analog",
+              "top of the line",
+              "affordable",
+              "ease of use",
+              "range",
+              "compact size"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale caratteristica privilegi nell'acquisto di una sonda o di una pala?",
+            "en": "What feature is most important when buying a probe or a shovel?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.probeShovelFactors",
+          "helpText": {},
+          "choices": {
+            "it": ["Robustezza", "Leggerezza"],
+            "en": ["Durability", "Light weight"]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai uno zaino airbag?",
+            "en": "Do you own an avalanche airbag pack?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.airbagOwned",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì",
+              "No",
+              "Sto valutandone l’acquisto",
+              "Non penso che mi serva"
+            ],
+            "en": [
+              "Yes",
+              "No",
+              "I’m considering it",
+              "I don’t think I’ll need one"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai uno zaino airbag elettrico?",
+            "en": "Do you own an electric airbag pack?"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.electricAirbagOwned",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Abbiamo finito!",
+        "en": "Almost there!"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Nome",
+            "en": "First Name"
+          },
+          "type": "input",
+          "fieldName": "skier.firstName",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Cognome",
+            "en": "Last Name"
+          },
+          "type": "input",
+          "fieldName": "skier.lastName",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Indirizzo",
+            "en": "Street Address"
+          },
+          "type": "input",
+          "fieldName": "skier.address",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "CAP",
+            "en": "ZIP"
+          },
+          "type": "input",
+          "fieldName": "skier.zip",
+          "helpText": {},
+          "input": {
+            "type": "text",
+            "maxLength": 5
+          }
+        },
+        {
+          "question": {
+            "it": "Città",
+            "en": "Town"
+          },
+          "type": "input",
+          "fieldName": "skier.city",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Nazione",
+            "en": "Country"
+          },
+          "type": "input",
+          "fieldName": "skier.country",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Numero di telefono",
+            "en": "Phone number"
+          },
+          "type": "input",
+          "fieldName": "skier.phone",
+          "helpText": {
+            "it": "Sarai informato su...",
+            "en": "We’ll keep you posted on..."
+          },
+          "input": {
+            "type": "tel"
+          }
+        },
+        {
+          "question": {
+            "it": "Sesso",
+            "en": "Gender"
+          },
+          "type": "singlechoice",
+          "fieldName": "skier.gender",
+          "helpText": {},
+          "choices": {
+            "it": ["Uomo", "Donna", "Altro"],
+            "en": ["Male", "Female", "Other"]
+          }
+        },
+        {
+          "question": {
+            "it": "Data di nascita",
+            "en": "Date of birth"
+          },
+          "type": "input",
+          "fieldName": "skier.birthDate",
+          "helpText": {},
+          "input": {
+            "type": "date"
+          }
+        }
+      ]
+    }
+  ],
+  "splitboard": [
+    {
+      "title": {
+        "it": "Abitudini",
+        "en": "Habits"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quanto distante vivi dalla neve e da dove abitualmente pratichi attività con gli sci?",
+            "en": "How far do you travel and where do you usually go to ski?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.distance",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Meno di 10 km",
+              "Almeno 50 km",
+              "Almeno 100 km",
+              "200 km e più"
+            ],
+            "en": [
+              "Less than 10 km",
+              "At least 50 km",
+              "At least 100 km",
+              "200 km or more"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai una seconda casa in montagna?",
+            "en": "Do you have a vacation home in the mountains?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.secondHome",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì",
+              "No",
+              "La prendo in affitto",
+              "Abito in montagna",
+              "Sfrutto casa di parenti e/o amici",
+              "Ho un camper",
+              "Ho un furgone camperizzato"
+            ],
+            "en": [
+              "Yes",
+              "No",
+              "I do short-term rental",
+              "I live in the mountains",
+              "I use the house of a relative/friend",
+              "I have a camper",
+              "I have a camper van"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Dove pratichi solitamente scialpinismo?",
+            "en": "Where do you usually go ski mountaineering?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.locationHabits",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Quasi sempre nella stessa zona",
+              "Mi sposto a seconda di dove c'è neve migliore",
+              "Mi piace cambiare, scelgo ogni volta una destinazione diversa"
+            ],
+            "en": [
+              "Almost always in the same place",
+              "I go where I find the best snow",
+              "I like to change and pick a different destination every time"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Cosa ne pensi dei viaggi per sciare in Paesi stranieri?",
+            "en": "How do you feel about ski trips abroad?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.travelHabits",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Mi piacciono, cerco di farne uno o più all'anno",
+              "Non ho mai provato ma vorrei farlo",
+              "Non mi interessa",
+              "Non ho la compagnia giusta per organizzarmi",
+              "Costa troppo",
+              "Altro"
+            ],
+            "en": [
+              "I like them and try to go once or twice a year",
+              "I’ve never tried it, but I’d like to",
+              "Not interested",
+              "I don’t have the right travel companions",
+              "Costs too much",
+              "Other"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Come ti sei avvicinato allo scialpinismo?",
+            "en": "How did you get into ski mountaineering?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.approach",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Corso CAI",
+              "lezioni con una Guida alpina",
+              "Autodidatta",
+              "vengo dallo sci alpino in pista",
+              "Mi hanno avviato degli amici esperti"
+            ],
+            "en": [
+              "Ski school or club",
+              "lessons with an Alpine Guide",
+              "Self-taught",
+              "I came from downhill on groomed trails",
+              "Friends got me into it"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quante uscite fai con le pelli in un anno?",
+            "en": "How many skimo outings do you do in a year?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.outingsPerYear",
+          "helpText": {},
+          "choices": {
+            "it": ["Meno di 5", "Almeno 10", "Almeno 20", "30 e più"],
+            "en": ["Fewer than 5", "At least 10", "At least 20", "30 or more"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali condizioni devono esserci perché tu decida di uscire per fare una gita?",
+            "en": "What conditions do you need to decide to head out for some skimo?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.snowConditions",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Solo se c'è neve fresca",
+              "In tutte le condizioni purché ci sia sicurezza",
+              "Solo in primavera su nevi trasformate"
+            ],
+            "en": [
+              "Only if there’s fresh snow",
+              "Anytime, as long as it’s safe",
+              "Only in spring on transformed snow"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Saresti disposto a rivolgerti a un professionista per migliorare il tuo livello?",
+            "en": "Would you be willing to get with a professional instructor to improve your skill?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.instructor",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì a una Guida Alpina",
+              "Sì a un Maestro di sci",
+              "Sì a un istruttore di scialpinismo CAI",
+              "Sì a un preparatore atletico",
+              "No penso di cavarmela da solo",
+              "No chiedo aiuto ad amici"
+            ],
+            "en": [
+              "Yes, an Alpine Guide",
+              "Yes, a ski instructor",
+              "Yes, a local ski club",
+              "Yes, an athletic trainer",
+              "No, I think I can manage on my own",
+              "No, I have friends who can help"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali sono i tuoi prossimi obiettivi con gli sci?",
+            "en": "What are your near-term ski goals?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.goals",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Aumentare il dislivello che riesco a percorrere",
+              "Più velocità in discesa",
+              "Aggiornare la tecnica in chiave new school",
+              "Migliorare la tecnica in generale",
+              "Più tempo per gite e allenamento",
+              "Aumentare la difficoltà delle gite che posso affrontare",
+              "Viaggiare con gli sci in Italia e all'Estero",
+              "Sci ripido"
+            ],
+            "en": [
+              "Increase elevation gain I can handle",
+              "Increase descent speed",
+              "Learn the new-school techniques",
+              "Improve technique overall",
+              "Find more time for skiing and training",
+              "Increase the difficulty level I can handle",
+              "Take a ski vacation",
+              "Learn to ski steep terrain"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Come definiresti il tuo livello tecnico in montagna?",
+            "en": "How would you rate your technical ability in the mountains?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.technicalLevel",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Occasionale",
+              "Principiante",
+              "Media esperienza",
+              "Esperto",
+              "Professionista"
+            ],
+            "en": [
+              "Casual",
+              "Beginner",
+              "Intermediate experience",
+              "Expert",
+              "Professional"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Come ti definisci in quanto praticante di sport invernali?",
+            "en": "What would you call yourself when it comes to winter sports?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.sportsLevel",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Scialpinista",
+              "Sciatore",
+              "Freerider",
+              "Garista",
+              "Non mi piacciono le categorie"
+            ],
+            "en": [
+              "Ski mountaineer",
+              "Skier",
+              "Freerider",
+              "Competition skier",
+              "I don’t like labels"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali attività pratichi in montagna nel corso dell'anno?",
+            "en": "What mountain sports do you do throughout the year?"
+          },
+          "type": "multichoice",
+          "fieldName": "splitboarder.mountainSports",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Scialpinismo",
+              "Sci alpino",
+              "Arrampicata",
+              "Alpinismo",
+              "Trekking",
+              "Trail Running",
+              "Skyrunning",
+              "Mountain Bike",
+              "Ciclismo su strada",
+              "Altro"
+            ],
+            "en": [
+              "Ski mountaineering",
+              "Alpine skiing",
+              "Mountaineering",
+              "Hiking",
+              "Trail running, Skyrunning",
+              "Mountain biking",
+              "Road cycling",
+              "Other"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Condizioni della neve permettendo, quanto spesso scegli di sciare fuori pista rispetto alla pista battuta?",
+            "en": "Assuming good snow conditions, how often do you go off the groomed trails and do sidecountry?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.offPisteFrequency",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sempre",
+              "Spesso",
+              "Qualche volta (deve essere proprio bella)",
+              "Quasi mai"
+            ],
+            "en": [
+              "All the time",
+              "Often",
+              "Sometimes (only on really great snow)",
+              "Almost never"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale di queste qualità consideri prioritaria per praticare bene lo scialpinismo?",
+            "en": "Which of the following do you think is most important to enjoy ski mountaineering?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.quality",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sciare bene",
+              "Conoscere l'ambiente e la neve",
+              "Avere un ottimo allenamento in salita",
+              "Saper maneggiare bene l'attrezzatura"
+            ],
+            "en": [
+              "Skiing well",
+              "Familiarity with the snow and the environment",
+              "Excellent fitness for the climb",
+              "Knowing how to use your equipment well"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Attrezzatura",
+        "en": "Equipment"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "In quale categoria prodotto della Buyer’s Guide ti riconosci?",
+            "en": "Which product category in the Buyer’s Guide interests you most?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.productCategory",
+          "helpText": {},
+          "choices": {
+            "it": ["Race", "Light", "Tour", "Free", "Splitboard", "Non saprei"],
+            "en": ["Race", "Light", "Tour", "Free", "Splitboard", "Not sure"]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai mai partecipato a un evento sulla neve con la possibilità di provare l’attrezzatura?",
+            "en": "Have you ever gone to an event where you can try new equipment on the snow?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.events",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì, è molto utile",
+              "No, non mi interessa",
+              "No ma mi piacerebbe"
+            ],
+            "en": [
+              "Yes, they’re very helpful",
+              "No, not interested",
+              "No, but I’d like to"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Da quale elemento del set parti se decidi di rinnovare la tua attrezzatura?",
+            "en": "Which component do you start with when updating your equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.equipmentUpdate",
+          "helpText": {},
+          "choices": {
+            "it": ["Sci", "Scarponi", "Attacchi"],
+            "en": ["Skis", "Boots", "Bindings"]
+          }
+        },
+        {
+          "question": {
+            "it": "Sei mai stato influenzato dal look o dall'immagine nella scelta di sci e scarponi?",
+            "en": "Are you ever influenced by aesthetics or brand image when choosing skis or boots?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.look",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Dove acquisti preferibilmente l’attrezzatura?",
+            "en": "Where do you like to buy your equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.purchaseLocationHabits",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Negozio specializzato",
+              "Grande distribuzione sportiva",
+              "Shop on-line",
+              "Shop on-line del marchio"
+            ],
+            "en": [
+              "Specialist shop",
+              "Major sports retailer",
+              "Online marketplace",
+              "Brand’s online store"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto sei disposto a spendere in attrezzatura ogni anno?",
+            "en": "How much are you willing to spend on equipment in one year?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.equipmentBudget",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Fino a 500 euro",
+              "Da 500 a 1000 euro",
+              "Da 1000 a 1500 euro",
+              "Fino a 2000 euro",
+              "Oltre 2000 euro"
+            ],
+            "en": [
+              "Up to EUR 500",
+              "from EUR 500 to 1000",
+              "from EUR 1000 to 1500",
+              "up to EUR 2000",
+              "more than EUR 2000"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai mai acquistato attrezzatura usata?",
+            "en": "Have you ever bought used equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.usedEquipment",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì, il set completo",
+              "No",
+              "Sì, gli sci",
+              "Sì, gli scarponi",
+              "No, ma ci sto pensando perché i costi del nuovo sono troppo elevati"
+            ],
+            "en": [
+              "Yes, complete set",
+              "No",
+              "Yes, skis",
+              "Yes, boots",
+              "No, but I’m considering it because new equipment costs too much"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto ti ha soddisfatto acquistare attrezzatura usata?",
+            "en": "How would you rate your satisfaction with used equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.usedEquipmentSatisfaction",
+          "helpText": {},
+          "choices": {
+            "it": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+            "en": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Acquisto",
+        "en": "Purchase"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Chi influenza maggiormente il tuo acquisto?",
+            "en": "What influences your buying decision most?"
+          },
+          "type": "multichoice",
+          "fieldName": "splitboarder.purchaseInfluences",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "La Buyer’s Guide di Skialper",
+              "Blog/siti specializzati",
+              "Il consiglio di un amico",
+              "Corso CAI",
+              "Maestro di sci",
+              "Guida alpina",
+              "Negoziante",
+              "Social network"
+            ],
+            "en": [
+              "The Skialper Buyer’s Guide",
+              "specialist blogs/websites",
+              "The advice of a friend",
+              "Ski school or club",
+              "Ski instructor",
+              "Alpine guide",
+              "Shop clerk",
+              "Social media"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Potresti indicarci alcuni dei tuoi riferimenti (negozianti, siti, blog, pagine sui social, esperti di vario genere) sulle valutazioni d'acquisto?",
+            "en": "Would you mind specifying a few sources (e.g. shop, website, blog, social media account, other expert) that influence your buying decisions?"
+          },
+          "type": "text",
+          "fieldName": "splitboarder.purchaseInfluencesOther",
+          "helpText": {}
+        },
+        {
+          "question": {
+            "it": "Hai seguito i consigli della nostra Buyer's Guide per l'acquisto della tua attrezzatura?",
+            "en": "Have you followed advice in our Buyer’s Guide when purchasing your equipment?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.buyersGuideSuggestions",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "In parte"],
+            "en": ["Yes", "No", "In part"]
+          }
+        },
+        {
+          "question": {
+            "it": "Da 1 a 10, quanto ti sei ritrovato nelle nostre valutazioni dopo aver utilizzato l'attrezzatura per tutta la stagione?",
+            "en": "On a scale of 1 to 10, how much do you agree with our reviews after using the equipment for a full year?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.buyersGuideAgreement",
+          "helpText": {},
+          "choices": {
+            "it": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+            "en": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+          }
+        },
+        {
+          "question": {
+            "it": "Pensi che l'offerta delle aziende si stia evolvendo di pari passo con le esigenze di chi si muove in montagna con gli sci e le pelli?",
+            "en": "Do you think what companies make is evolving in sync with the evolving needs of ski mountaineers?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.evolution",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "Non ci ho mai riflettuto"],
+            "en": ["Yes", "No", "Haven’t though about it"]
+          }
+        },
+        {
+          "question": {
+            "it": "Pensi che il livello tecnico di chi frequenta la montagna stia evolvendo di pari passo con la proposta di materiali e attrezzatura delle aziende?",
+            "en": "Do you think the technical abilities of mountaineers are evolving at the same pace as the equipment and materials company’s are offering the market?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.technicalEvolution",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "Non ci ho mai riflettuto"],
+            "en": ["Yes", "No", "Haven’t though about it"]
+          }
+        },
+        {
+          "question": {
+            "it": "Segui i social network dei marchi di attrezzatura?",
+            "en": "Do you follow equipment makers on social media?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.socialNetworks",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Instagram",
+              "Facebook",
+              "Twitter",
+              "TikTok",
+              "YouTube",
+              "Non li seguo"
+            ],
+            "en": [
+              "Instagram",
+              "Facebook",
+              "Twitter",
+              "TikTok",
+              "YouTube",
+              "No, I don’t"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "La fedeltà a un marchio influenza le tue scelte d'acquisto?",
+            "en": "Does brand loyalty influence your buying decisions?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.brandLoyalty",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Indica almeno tre personaggi, tra pro skier, snowboarder, atleti, guide alpine, climber, alpinisti, trail runner, fotografi, scrittori o altri, che consideri di riferimento e di ispirazione per il tuo modo di vivere la montagna.",
+            "en": "Indicate at least three role models — who could be pro skiers, snowboarders, alpine guides, climbers, mountaineers, trail runners, photographers, writers, or other athletes or influencers — you look to for inspiration in how you approach the mountains."
+          },
+          "type": "text",
+          "fieldName": "splitboarder.influencers",
+          "helpText": {}
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Tavole splitboard",
+        "en": "Splitboards"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quante tavole utilizzabili possiedi?",
+            "en": "How many boards do you currently own?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.boardsOwned",
+          "helpText": {},
+          "choices": {
+            "it": ["1", "2", "3", "4", "Più di 4"],
+            "en": ["1", "2", "3", "4", "More than 4"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali sono i fattori più importanti (fino a 3 risposte) quando acquisti una tavola?",
+            "en": "What are the most important factors you consider when buying a board (pick up to 3)?"
+          },
+          "type": "multichoice",
+          "helpText": {},
+          "fieldName": "splitboarder.boardFactors",
+          "choices": {
+            "it": [
+              "Shape",
+              "Larghezza",
+              "Peso",
+              "Rocker/camber",
+              "Flex",
+              "Costruzione",
+              "Materiali",
+              "Prezzo",
+              "Moda"
+            ],
+            "en": [
+              "Width",
+              "Weight",
+              "Rocker/camber",
+              "Flex",
+              "Construction",
+              "Materials",
+              "Price",
+              "Fashion"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Qual è la tua lunghezza di tavola di riferimento rispetto alla tua altezza?",
+            "en": "What board length do you prefer in relation to your height?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.boardLength",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "<20 cm",
+              "20 cm<lunghezza<10 cm",
+              "10 cm<lunghezza<0 cm",
+              "0 cm>lunghezza> 10 cm",
+              "10 cm >lunghezza>20 cm"
+            ],
+            "en": [
+              "<20 cm",
+              "20 cm<length<10 cm",
+              "10 cm<length<0 cm",
+              "0 cm>length> 10 cm",
+              "10 cm >length>20 cm"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto è importante il peso per l'aquisto di una splitboard?",
+            "en": "How important is weight when buying a splitboard?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.boardWeight",
+          "helpText": {},
+          "choices": {
+            "it": ["Non importa", "Abbastanza", "Deve essere leggera"],
+            "en": ["Not important", "Fairly important", "It has to be light"]
+          }
+        },
+        {
+          "question": {
+            "it": "Ogni quanti anni acquisti una tavola?",
+            "en": "How often do you buy a board?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.boardPurchaseFrequency",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Ogni anno",
+              "Ogni due anni",
+              "Ogni tre anni",
+              "Quando diventa inutilizzabile"
+            ],
+            "en": [
+              "Every year",
+              "Every two years",
+              "Every three years",
+              "When my current one is no longer usable"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Scegli 3 marchi di cui acquisteresti volentieri una splitboard nella prossima stagione",
+            "en": "Select 3 brands of splitboard you would like to buy next season."
+          },
+          "type": "multichoice",
+          "fieldName": "splitboarder.boardBrands",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Season Pass",
+              "Jones",
+              "Weston, Salomon, Burton",
+              "K2",
+              "Arbor",
+              "Korua",
+              "Lib Tech",
+              "Nitro",
+              "Ride",
+              "Gnu",
+              "Furber",
+              "Rossignol",
+              "Amplid",
+              "Borealis",
+              "Capita",
+              "Stranda",
+              "Weston",
+              "Never summer"
+            ],
+            "en": [
+              "Season Pass",
+              "Jones",
+              "Weston, Salomon, Burton",
+              "K2",
+              "Arbor",
+              "Korua",
+              "Lib Tech",
+              "Nitro",
+              "Ride",
+              "Gnu",
+              "Furber",
+              "Rossignol",
+              "Amplid",
+              "Borealis",
+              "Capita",
+              "Stranda",
+              "Weston",
+              "Never Summer"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto spesso porti la tavola a fare manutenzione?",
+            "en": "How often do you take your board in for maintenance?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.boardMaintenanceFrequency",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "A fine stagione",
+              "Mai, solo se è rovinata",
+              "Almeno due volte a stagione",
+              "Più di due volte a stagione",
+              "Mai, la faccio da solo"
+            ],
+            "en": [
+              "At the end of each season",
+              "Never, only if absolutely necessary",
+              "At least twice each season",
+              "More than twice each season",
+              "Never, I do it myself"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Scarponi splitboard",
+        "en": "Splitboard Boots"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quante paia di scarponi utilizzabili hai?",
+            "en": "How many pairs of usable ski boots do you own?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.bootsOwned",
+          "helpText": {},
+          "choices": {
+            "it": ["1", "2", "3", "4", "Più di 4"],
+            "en": ["1", "2", "3", "4", "More than 4"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale sistema di chiusura prediligi?",
+            "en": "What type of boot closure do you prefer?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.bootClosure",
+          "helpText": {},
+          "choices": {
+            "it": ["Lacci", "Boa", "Cable", "altro"],
+            "en": ["Laces", "BOA", "Cable", "Other"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quali caratteristiche (fino a tre risposte) guardi prima di tutto quando acquisti uno scarpone?",
+            "en": "What characteristics are most important to you when buying a ski boot (select up to 3)?"
+          },
+          "type": "multichoice",
+          "fieldName": "splitboarder.bootFactors",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Peso",
+              "Mobilità gambetto (soffietto)",
+              "Suola",
+              "Sistema di chiusura",
+              "Ramponabilità",
+              "Materiali",
+              "Rigidità"
+            ],
+            "en": [
+              "Weight",
+              "Cuff (collar) mobility",
+              "Sole",
+              "Closure type",
+              "Crampon compatibility",
+              "Materials",
+              "Stiffness"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Ogni quanti anni acquisti uno scarpone?",
+            "en": "How often do you buy ski boots?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.bootPurchaseFrequency",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Ogni anno",
+              "Cerco di usare al massimo il mio",
+              "Ogni due anni",
+              "Ogni tre anni",
+              "Quando diventano inutilizzabili"
+            ],
+            "en": [
+              "Every year",
+              "I try to use mine as long as possible",
+              "Every two years",
+              "Every three years",
+              "When I can’t use my old ones anymore"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Scegli 3 marchi di cui acquisteresti volentieri un paio di scarponi nella prossima stagione?",
+            "en": "Select 3 brands of ski boots you would like to buy next season."
+          },
+          "type": "multichoice",
+          "fieldName": "splitboarder.bootBrands",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Burton",
+              "K2",
+              "Thirtywo",
+              "Salomon",
+              "Vans",
+              "Nitro",
+              "Nike",
+              "Fitwell",
+              "Northwave",
+              "Deeluxe",
+              "DC"
+            ],
+            "en": [
+              "Burton",
+              "K2",
+              "Thirtywo",
+              "Salomon",
+              "Vans",
+              "Nitro",
+              "Nike",
+              "Fitwell",
+              "Northwave",
+              "Deeluxe",
+              "DC"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Valuteresti/utilizzi uno scarpone Hard?",
+            "en": "Do you now or would you consider using a hard boot?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.hardBoot",
+          "helpText": {},
+          "choices": {
+            "it": ["Si", "No", "Ci sto pensando"],
+            "en": ["Yes", "No", "I’m thinking about it"]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Attacchi Splitboard",
+        "en": "Splitboards Bindings"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Che cosa cerchi in un attacco?",
+            "en": "What do you look for in a binding?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.bindingFactors",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Leggerezza",
+              "Sicurezza",
+              "Durata",
+              "Facilità di utilizzo",
+              "Stabilità"
+            ],
+            "en": [
+              "Light weight",
+              "Safety",
+              "Durability",
+              "Ease of use",
+              "Stability"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto conta per te la rigidità dell'attacco? ",
+            "en": "How important is the stiffness of the binding?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.bindingStiffness",
+          "helpText": {},
+          "choices": {
+            "it": ["Poco", "Abbastanza", "Tanto"],
+            "en": ["Not much", "Fairly important", "Very important"]
+          }
+        },
+        {
+          "question": {
+            "it": "Scegli un marchio di cui acquisteresti volenteri un attacco nella prossima stagione.",
+            "en": "Select the brand of binding you would like to buy next season."
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.bindingBrands",
+          "helpText": {},
+          "choices": {
+            "it": ["Spark", "Plum", "Union", "Voile", "Karakoram", "Rossignol"],
+            "en": ["Spark", "Plum", "Union", "Voile", "Karakoram", "Rossignol"]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Pelli Splitboard",
+        "en": "Splitboard Skins"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quanta importanza dai alle pelli nel tuo set Splitboard?",
+            "en": "How important are your climbing skins in your splitboard kit?"
+          },
+          "type": "range",
+          "fieldName": "splitboarder.skinsImportance",
+          "helpText": {},
+          "range": {
+            "min": "1"
+          }
+        },
+        {
+          "question": {
+            "it": "Quale tipologia di aggancio pelli preferisci?",
+            "en": "What type of connector do you prefer for your skins?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.skinsAttachment",
+          "helpText": {},
+          "choices": {
+            "it": ["Solo anteriore", "Anteriore e posteriore"],
+            "en": ["Tip only", "Tip and tail"]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale di queste caratteristiche per te è più importante nelle pelli?",
+            "en": "Which of these characteristics is most important to you in your skins?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.skinsFactors",
+          "helpText": {},
+          "choices": {
+            "it": ["Scorrevolezza", "Tenuta", "Tenuta estrema"],
+            "en": ["Glide", "Grip", "Extreme grip"]
+          }
+        },
+        {
+          "question": {
+            "it": "Nell'acquisto delle pelli, quale delle due soluzioni preferisci?",
+            "en": "Which of these two solutions do you prefer when buying climbing skins?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.skinsPurchaseSolution",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Un modello dal catalogo di un'azienda che produce solo pelli",
+              "Pelli pre-formate proposte in abbinamento alle tavole dalle aziende"
+            ],
+            "en": [
+              "A standard model from a specialist skin producer",
+              "Precut skins that come with the boards"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Scegli 2 marchi di cui acquisteresti volentieri un set di pelli nella prossima stagione?",
+            "en": "Select 2 brands of climbing skins you would like to buy next season."
+          },
+          "type": "multichoice",
+          "fieldName": "splitboarder.skinsBrands",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Colltex",
+              "Contour",
+              "G3",
+              "Kohla",
+              "Montana",
+              "Pomoca",
+              "Jones",
+              "Nitro",
+              "Black Diamond",
+              "Amplid",
+              "Rossignol",
+              "Burton"
+            ],
+            "en": [
+              "Colltex",
+              "Contour",
+              "G3",
+              "Kohla",
+              "Montana",
+              "Pomoca",
+              "Ski Trab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Bastoni Splitboard",
+        "en": "Splitboard Poles"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Che soluzione preferisci?",
+            "en": "Which do you prefer?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.polesType",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "2 pezzi regolabile",
+              "3 pezzi regolabile",
+              "3 pezzi con cavo"
+            ],
+            "en": ["2-piece adjustable", "3-piece adjustable", "Tri-fold"]
+          }
+        },
+        {
+          "question": {
+            "it": "Che caratteristica consideri fondamentale in un paio di bastoni?",
+            "en": "Which characteristic is essential for you in a pair of poles?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.polesFactors",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Leggerezza",
+              "Robustezza",
+              "Ergonomia nell'impugnatura",
+              "Dimensioni da chiuso"
+            ],
+            "en": [
+              "Light weight",
+              "Durability",
+              "Ergonomic grip",
+              "Size when closed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Sicurezza",
+        "en": "Safety"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Utilizzi regolarmente artva, sonda e pala nelle tue gite?",
+            "en": "Do you normally carry a beacon, probe and shovel on your outings?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.safetyEquipment",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "Solo se vado in alta montagna"],
+            "en": ["Yes", "No", "Only when going to high altitudes"]
+          }
+        },
+        {
+          "question": {
+            "it": "Ti preoccupi dell'efficienza del tuo artva (aggiornamento software, pile ben cariche?)",
+            "en": "Do you regularly maintain your beacon (e.g. software updates, charged batteries)?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.beaconMaintenance",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No", "Dovrei starci più attento"],
+            "en": ["Yes", "No", "I need to be more careful"]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai mai partecipato a un campo artva o a un corso di ricerca dispersi in valanga?",
+            "en": "Have you ever participated in an avalanche rescue course or retreat?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.beaconCourse",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì, una volta",
+              "Sì, periodicamente per essere aggiornato",
+              "Mai",
+              "Mai, ma voglio farlo al più presto"
+            ],
+            "en": [
+              "Yes, once",
+              "Yes, now and then to stay up to date",
+              "Never",
+              "Never, but I want to soon"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale livello di rischio nella scala del bollettino valanghe consideri accettabile per uscire a fare una gita? ",
+            "en": "What level of risk as rated on the avalanche danger scale (5 being the highest) do you consider acceptable for an outing?"
+          },
+          "type": "range",
+          "fieldName": "splitboarder.avalancheRisk",
+          "helpText": {},
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Quale caratteristica privilegi nell'acquisto di un artva?",
+            "en": "What feature is most important when buying a beacon?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.beaconFactors",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Digitale e non analogico",
+              "top di gamma",
+              "che sia economico",
+              "facilità di utilizzo",
+              "portata",
+              "dimensioni contenute"
+            ],
+            "en": [
+              "Digital, non analog",
+              "top of the line",
+              "affordable",
+              "ease of use",
+              "range",
+              "compact size"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quale caratteristica privilegi nell'acquisto di una sonda o di una pala?",
+            "en": "What feature is most important when buying a probe or a shovel?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.probeShovelFactors",
+          "helpText": {},
+          "choices": {
+            "it": ["Robustezza", "Leggerezza"],
+            "en": ["Durability", "Light weight"]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai uno zaino airbag?",
+            "en": "Do you own an avalanche airbag pack?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.airbag",
+          "helpText": {},
+          "choices": {
+            "it": [
+              "Sì",
+              "No",
+              "Sto valutandone l’acquisto",
+              "Non penso che mi serva"
+            ],
+            "en": [
+              "Yes",
+              "No",
+              "I’m considering it",
+              "I don’t think I’ll need one"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Hai uno zaino airbag elettrico?",
+            "en": "Do you own an electric airbag pack?"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.electricAirbagOwned",
+          "helpText": {},
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Abbiamo finito!",
+        "en": "Almost there!"
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Nome",
+            "en": "First Name"
+          },
+          "type": "input",
+          "fieldName": "splitboarder.firstName",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Cognome",
+            "en": "Last Name"
+          },
+          "type": "input",
+          "fieldName": "splitboarder.lastName",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Indirizzo",
+            "en": "Street Address"
+          },
+          "type": "input",
+          "fieldName": "splitboarder.address",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "CAP",
+            "en": "ZIP"
+          },
+          "type": "input",
+          "fieldName": "splitboarder.zip",
+          "helpText": {},
+          "input": {
+            "type": "number"
+          }
+        },
+        {
+          "question": {
+            "it": "Città",
+            "en": "Town"
+          },
+          "type": "input",
+          "fieldName": "splitboarder.city",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Nazione",
+            "en": "Country"
+          },
+          "type": "input",
+          "fieldName": "splitboarder.country",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Numero di telefono",
+            "en": "Phone number"
+          },
+          "type": "input",
+          "fieldName": "splitboarder.phone",
+          "helpText": {
+            "it": "Sarai informato su...",
+            "en": "We’ll keep you posted on..."
+          },
+          "input": {
+            "type": "number"
+          }
+        },
+        {
+          "question": {
+            "it": "Sesso",
+            "en": "Gender"
+          },
+          "type": "singlechoice",
+          "fieldName": "splitboarder.gender",
+          "helpText": {},
+          "choices": {
+            "it": ["Uomo", "Donna", "Altro"],
+            "en": ["Male", "Female", "Other"]
+          }
+        },
+        {
+          "question": {
+            "it": "Data di nascita",
+            "en": "Date of birth"
+          },
+          "type": "input",
+          "fieldName": "splitboarder.birthDate",
+          "helpText": {},
+          "input": {
+            "type": "date"
+          }
+        }
+      ]
+    }
+  ]
+}

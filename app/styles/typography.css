@@ -1,0 +1,306 @@
+@layer components {
+  /* 
+    responsive typography: https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/
+  */
+  .h1 {
+    font-size: 3rem;
+
+    /* 48 */
+    @screen lg {
+      font-size: clamp(3.553rem, 3.459vw + 7.214rem, 5rem);
+      /* 56.85 - 80*/
+    }
+  }
+
+  .h2 {
+    font-size: 2.5rem;
+
+    /* 40 */
+    @screen lg {
+      font-size: clamp(2.813rem, 1.004464285vw + 4.0178571rem, 3.375rem);
+      /* 45 - 54 */
+    }
+  }
+
+  .h3 {
+    font-size: 2rem;
+
+    /* 32 */
+    @screen lg {
+      font-size: clamp(2.188rem, 0.558035714vw + 2.8571428rem, 2.5rem);
+      /* 35 - 40*/
+    }
+  }
+
+  .h4 {
+    font-size: 1.5rem;
+
+    /* 24 */
+    @screen lg {
+      font-size: clamp(1.563rem, 0.78125vw + 2.5rem, 2rem);
+      /* 25 - 32 */
+    }
+  }
+
+  .h5 {
+    font-size: 0.875rem;
+
+    /* 14 - 28.672 */
+    @screen lg {
+      font-size: clamp(0.8rem, 1.2499999999999998vw + 0rem, 1.125rem);
+      /* 12.8 - 18 */
+    }
+  }
+
+  .display-l {
+    font-size: 1.875rem;
+
+    /* 30 - 61.44 */
+    @screen lg {
+      font-size: clamp(
+        2.1333125rem,
+        3.333413461538461vw + -0.00007211538461477245rem,
+        3rem
+      );
+      /* 34.133 - 48 */
+    }
+  }
+
+  .display-m {
+    font-size: 1.5rem;
+
+    /* 24 - 49.152 */
+    @screen lg {
+      font-size: clamp(1.6rem, 2.4999999999999996vw + 0rem, 2.25rem);
+      /* 25.6 - 36 */
+    }
+  }
+
+  .display-s {
+    font-size: 1.375rem;
+
+    /* 22 - 45 */
+    @screen lg {
+      font-size: clamp(
+        1.3333125rem,
+        2.083413461538462vw + -0.0000721153846158656rem,
+        1.875rem
+      );
+      /* 21.333 - 30 */
+    }
+  }
+
+  .body-xl {
+    font-size: 1.125rem;
+
+    /* 18 - 36.864 */
+    @screen lg {
+      font-size: clamp(
+        1.066625rem,
+        1.6668269230769233vw + -0.00014423076923118463rem,
+        1.5rem
+      );
+      /* 17.066 - 24  */
+    }
+  }
+
+  .body-l {
+    font-size: 1rem;
+
+    /* 16 - 32.768 */
+    @screen lg {
+      font-size: clamp(
+        0.888875rem,
+        1.3889423076923078vw + -0.00004807692307687935rem,
+        1.25rem
+      );
+      /* 14.222 - 20 */
+    }
+  }
+
+  .body-m {
+    font-size: 0.875rem;
+
+    /* 14 - 28.672 */
+    @screen lg {
+      font-size: clamp(0.8rem, 1.2499999999999998vw + 0rem, 1.125rem);
+      /* 12.8 - 18 */
+    }
+  }
+
+  .body-s {
+    font-size: 0.75rem;
+
+    /* 12 - 45 */
+    @screen lg {
+      font-size: clamp(
+        0.75rem,
+        0.4807692307692308vw + 0.4423076923076923rem,
+        0.875rem
+      );
+      /* 9.955  -  14px; */
+    }
+  }
+
+  .body-xs {
+    font-size: 0.625rem;
+    line-height: 130%;
+
+    /* 10 - 20.48 */
+    @screen lg {
+      font-size: clamp(
+        0.5333125rem,
+        0.8334134615384616vw + -0.00007211538461559231rem,
+        0.75rem
+      );
+      /* 8.533 - 12 */
+    }
+  }
+
+  /* SANS */
+
+  .h1.font-sans {
+    @apply font-semibold leading-m tracking-xs;
+  }
+
+  .h2.font-sans {
+    @apply font-semibold leading-m tracking-xs;
+  }
+
+  .h3.font-sans {
+    @apply font-semibold leading-m tracking-2xs lg:tracking-xs;
+  }
+
+  .h4.font-sans {
+    @apply font-semibold leading-m tracking-normal;
+  }
+
+  .h5.font-sans {
+    @apply font-semibold leading-m tracking-normal lg:leading-m;
+  }
+
+  .display-l.font-sans {
+    @apply font-normal leading-m tracking-normal;
+  }
+
+  .display-m.font-sans {
+    @apply font-normal leading-xl tracking-normal;
+  }
+
+  .display-s.font-sans {
+    @apply font-normal leading-l tracking-normal lg:tracking-s;
+  }
+
+  .body-xl.font-sans {
+    @apply leading-3xl tracking-normal;
+  }
+
+  .body-l.font-sans {
+    @apply leading-3xl tracking-normal;
+  }
+
+  .body-m.font-sans {
+    @apply leading-3xl tracking-normal;
+  }
+
+  .body-s.font-sans {
+    @apply leading-3xl tracking-normal;
+  }
+
+  .body-xs.font-sans {
+    @apply tracking-normal;
+  }
+
+  /* SERIF */
+
+  h1.font-serif {
+    @apply font-medium leading-m tracking-s lg:tracking-xs;
+  }
+
+  .h2.font-serif {
+    @apply font-medium  leading-m tracking-s lg:tracking-xs;
+  }
+
+  .h3.font-serif {
+    @apply font-medium  leading-m tracking-normal;
+  }
+
+  .h4.font-serif {
+    @apply font-medium  leading-m tracking-normal;
+  }
+
+  .h5.font-serif {
+    @apply font-medium  leading-m tracking-normal;
+  }
+
+  .display-l.font-serif {
+    @apply font-normal leading-l tracking-3xs;
+  }
+
+  .display-m.font-serif {
+    @apply font-normal leading-xl tracking-normal;
+  }
+
+  .display-s.font-serif {
+    @apply font-normal leading-xl tracking-normal;
+  }
+
+  .body-xl.font-serif {
+    @apply leading-3xl tracking-normal;
+  }
+
+  .body-l.font-serif {
+    @apply leading-3xl tracking-normal lg:leading-xl;
+  }
+
+  .body-m.font-serif {
+    @apply leading-3xl tracking-normal;
+  }
+
+  .body-s.font-serif {
+    @apply leading-3xl tracking-normal lg:leading-4xl;
+  }
+
+  .body-xs.font-serif {
+    @apply leading-3xl tracking-normal;
+  }
+
+  .font-condensed.body-m {
+    font-size: 1rem;
+    /* 16 - 32.768 */
+    @apply tracking-3xl;
+
+    @screen lg {
+      font-size: clamp(0.8rem, 1.2499999999999998vw + 0rem, 1.125rem);
+      /* 12.8 - 18 */
+    }
+  }
+
+  .font-condensed.body-s {
+    font-size: 0.75rem;
+
+    /* 12 - 24.576 */
+    @screen lg {
+      font-size: clamp(
+        0.75rem,
+        0.4807692307692308vw + 0.4423076923076923rem,
+        0.875rem
+      );
+      /* 9.955  -  14px; */
+    }
+  }
+
+  .font-mono.body-s {
+    font-size: 0.5625rem;
+
+    /* 9 - 18.432 */
+    @screen lg {
+      font-size: clamp(
+        0.875rem,
+        3.526923076923077vw + -1.3822307692307694rem,
+        1.792rem
+      );
+      /* 9.955- 14 */
+    }
+  }
+}

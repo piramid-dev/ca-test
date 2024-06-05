@@ -1,0 +1,65 @@
+{
+  "pages": [
+    {
+      "originalPath": "/",
+      "path": "/",
+      "component": "_index"
+    },
+    {
+      "originalPath": "/account",
+      "path": "/account",
+      "component": "account"
+    },
+    {
+      "originalPath": "/login",
+      "path": "/accedi",
+      "component": "login"
+    },
+    {
+      "originalPath": "/join",
+      "path": "/registrati",
+      "component": "join"
+    },
+    {
+      "originalPath": "/credits",
+      "path": "/credits",
+      "component": "credits._index"
+    },
+    {
+      "originalPath": "/favorites/:productId",
+      "path": "/favorites/:productId",
+      "component": "favorites.$productId"
+    },
+    {
+      "originalPath": "/movies",
+      "path": "/film",
+      "component": "movies._index"
+    },
+    {
+      "originalPath": "/directors",
+      "path": "/registi",
+      "component": "directors._index"
+    }
+  ],
+  "topics": [
+    {
+      "originalPath": "/topics/:slug",
+      "path": "/temi/:slug",
+      "component": "topics.$slug"
+    }
+  ],
+  "movies": [
+    {
+      "originalPath": "/movies/:slug",
+      "path": "/film/:slug",
+      "component": "movies.$slug"
+    }
+  ],
+  "directors": [
+    {
+      "originalPath": "/directors/:slug",
+      "path": "/registi/:slug",
+      "component": "directors.$slug"
+    }
+  ]
+}

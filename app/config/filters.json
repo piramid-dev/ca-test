@@ -1,0 +1,2367 @@
+{
+  "movies": [
+    {
+      "order": 1,
+      "label": {
+        "en": "Topic",
+        "it": "Tematica"
+      },
+      "fieldName": "topic",
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 2,
+      "label": {
+        "en": "Genre",
+        "it": "Genere"
+      },
+      "fieldName": "genre",
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Country",
+        "it": "Paese"
+      },
+      "fieldName": "country",
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Duration",
+        "it": "Durata"
+      },
+      "fieldName": "duration",
+      "type": "multichoice",
+      "isOpen": false
+    }
+  ],
+  "articles": [
+    {
+      "order": 1,
+      "label": {
+        "en": "Categories",
+        "it": "Categorie"
+      },
+      "fieldName": "categories",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 2,
+      "label": {
+        "en": "Articles",
+        "it": "Articoli"
+      },
+      "fieldName": "topics",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Skier type",
+        "it": "Tipo di skier"
+      },
+      "fieldName": "skierTypes",
+      "lockable": true,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Scope",
+        "it": "Ambito"
+      },
+      "fieldName": "scopes",
+      "lockable": true,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    }
+  ],
+  "allProducts": [
+    {
+      "order": 0,
+      "label": {
+        "en": "Family",
+        "it": "Famiglia"
+      },
+      "fieldName": "family",
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 1,
+      "label": {
+        "en": "Categories",
+        "it": "Categorie"
+      },
+      "fieldName": "categories",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 2,
+      "label": {
+        "en": "Skier type",
+        "it": "Tipo di skier"
+      },
+      "fieldName": "skierTypes",
+      "lockable": true,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    }
+  ],
+  "artva": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    }
+  ],
+  "binding": [
+    {
+      "order": 1,
+      "label": {
+        "en": "Categories",
+        "it": "Categorie"
+      },
+      "fieldName": "categories",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 2,
+      "label": {
+        "en": "Skier type",
+        "it": "Tipo di skier"
+      },
+      "fieldName": "skierTypes",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 7,
+      "label": {
+        "en": "Color",
+        "it": "Colore"
+      },
+      "fieldName": "colors",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 300,
+      "label": {
+        "en": "Type",
+        "it": "Tipologia"
+      },
+      "fieldName": "types",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 301,
+      "isOpen": true,
+      "label": {
+        "en": "Release range",
+        "it": "Range di sgancio"
+      },
+      "type": "range-minmax",
+      "fieldName": ["releaseRangeMin", "releaseRangeMax"]
+    },
+    {
+      "order": 303,
+      "label": {
+        "en": "Adjustable release range",
+        "it": "Range di sgancio regolabile"
+      },
+      "fieldName": "releaseRangeAdjustable",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 304,
+      "label": {
+        "en": "Optional ski brake",
+        "it": "Ski stopper opzionale"
+      },
+      "fieldName": "skiBrakeOptional",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 305,
+      "label": {
+        "en": "Drop",
+        "it": "Drop"
+      },
+      "fieldName": "drop",
+      "lockable": true,
+      "type": "range",
+      "unit": {
+        "en": "mm",
+        "it": "mm"
+      },
+      "isOpen": false
+    },
+    {
+      "order": 306,
+      "label": {
+        "en": "Walking modes",
+        "it": "Posizioni"
+      },
+      "fieldName": "walkingModes",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    }
+  ],
+  "splitboard_binding": [
+    {
+      "order": 1,
+      "label": {
+        "en": "Categories",
+        "it": "Categorie"
+      },
+      "fieldName": "categories",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 7,
+      "label": {
+        "en": "Color",
+        "it": "Colore"
+      },
+      "fieldName": "colors",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 600,
+      "isOpen": true,
+      "label": {
+        "en": "Good performance in",
+        "it": "Si comporta bene in"
+      },
+      "type": "multichoice-interval",
+      "fieldName": ["featStrapComfort", "featUsageSpeed", "featHibackRigidity"],
+      "choices": [
+        {
+          "label": {
+            "en": "Comfort strap",
+            "it": "Comfort strap"
+          },
+          "fieldName": "featStrapComfort",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Speed of use",
+            "it": "Rapidità di utilizzo"
+          },
+          "fieldName": "featUsageSpeed",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Stiffness hiback",
+            "it": "Rigidità hiback"
+          },
+          "fieldName": "featHibackRigidity",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 603,
+      "isOpen": true,
+      "label": {
+        "en": "Good performance for",
+        "it": "Buona predisposizione per"
+      },
+      "type": "multichoice-interval",
+      "fieldName": ["funFreeride", "alpinism", "longHike"],
+      "choices": [
+        {
+          "label": {
+            "en": "Fun freeride",
+            "it": "Fun freeride"
+          },
+          "fieldName": "funFreeride",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Alpinismo",
+            "it": "Alpinism"
+          },
+          "fieldName": "alpinism",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Long Hike",
+            "it": "Long Hike"
+          },
+          "fieldName": "longHike",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 606,
+      "isOpen": true,
+      "label": {
+        "en": "Suitable for riders",
+        "it": "Indicato per splitboarder"
+      },
+      "type": "multichoice-interval",
+      "fieldName": [
+        "levelBeginner",
+        "levelGrowing",
+        "levelAdvanced",
+        "levelHigh"
+      ],
+      "choices": [
+        {
+          "label": {
+            "en": "Beginner",
+            "it": "Beginner"
+          },
+          "fieldName": "levelBeginner",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Intermediate",
+            "it": "Intermediate"
+          },
+          "fieldName": "levelGrowing",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Advanced",
+            "it": "Advanced"
+          },
+          "fieldName": "levelAdvanced",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Pro",
+            "it": "Pro"
+          },
+          "fieldName": "levelHigh",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 610,
+      "label": {
+        "en": "Heel lift",
+        "it": "Alzatacco"
+      },
+      "fieldName": "heelLifterAvailable",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 611,
+      "label": {
+        "en": "Negative hiback",
+        "it": "Hiback negativo"
+      },
+      "fieldName": "nagativeHibackAvailable",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    }
+  ],
+  "pole": [
+    {
+      "order": 1,
+      "label": {
+        "en": "Categories",
+        "it": "Categorie"
+      },
+      "fieldName": "categories",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Type",
+        "it": "Tipologia"
+      },
+      "fieldName": "types",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 7,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 700,
+      "label": {
+        "en": "Shaft material",
+        "it": "Materiale canna"
+      },
+      "fieldName": "shaftMaterials",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    }
+  ],
+  "helmet": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    }
+  ],
+  "rope": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    }
+  ],
+  "harness": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    }
+  ],
+  "shovel": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 760,
+      "label": {
+        "en": "Materials",
+        "it": "Materiali"
+      },
+      "fieldName": "material",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    }
+  ],
+  "skin": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Dry weight",
+        "it": "Peso a secco"
+      },
+      "fieldName": "weightDryMeasured",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 7,
+      "label": {
+        "en": "Wet weight",
+        "it": "Peso bagnata"
+      },
+      "fieldName": "weightWetMeasured",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 710,
+      "label": {
+        "en": "Materials",
+        "it": "Materiali"
+      },
+      "fieldName": "materials",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    }
+  ],
+  "axe": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 720,
+      "label": {
+        "en": "Handle material",
+        "it": "Materiale manico"
+      },
+      "fieldName": "handleMaterial",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 721,
+      "label": {
+        "en": "Head material",
+        "it": "Materiale testa"
+      },
+      "fieldName": "headMaterial",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    }
+  ],
+  "crampon": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 730,
+      "label": {
+        "en": "Materials",
+        "it": "Materiali"
+      },
+      "fieldName": "materials",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    }
+  ],
+  "boot": [
+    {
+      "order": 1,
+      "label": {
+        "en": "Categories",
+        "it": "Categorie"
+      },
+      "fieldName": "categories",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 2,
+      "label": {
+        "en": "Skier type",
+        "it": "Tipo di skier"
+      },
+      "fieldName": "skierTypes",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 7,
+      "label": {
+        "en": "Color",
+        "it": "Colore"
+      },
+      "fieldName": "colors",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 200,
+      "isOpen": true,
+      "label": {
+        "en": "Performance by context",
+        "it": "Rendimento nelle varie situazioni"
+      },
+      "type": "multichoice-interval",
+      "fieldName": [
+        "performanceSkiing",
+        "performanceSkisAscent",
+        "performanceClimbing",
+        "performanceWalk"
+      ],
+      "choices": [
+        {
+          "label": {
+            "en": "Skiing",
+            "it": "Sciata"
+          },
+          "fieldName": "performanceSkiing",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Ski ascent",
+            "it": "Salita con sci"
+          },
+          "fieldName": "performanceSkisAscent",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Climbing",
+            "it": "Arrampicata"
+          },
+          "fieldName": "performanceClimbing",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Walk",
+            "it": "Camminata"
+          },
+          "fieldName": "performanceWalk",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 204,
+      "isOpen": true,
+      "label": {
+        "en": "In lab",
+        "it": "In laboratorio"
+      },
+      "type": "multichoice-interval",
+      "fieldName": [
+        "labCramponability",
+        "labSkiwalk",
+        "labBootfitting",
+        "labBuckles"
+      ],
+      "choices": [
+        {
+          "label": {
+            "en": "Cramponability",
+            "it": "Ramponabilità"
+          },
+          "fieldName": "labCramponability",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Ski/walk lever functionality",
+            "it": "Funzionalità leva ski/walk"
+          },
+          "fieldName": "labSkiwalk",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Bootfitting possibile",
+            "it": "Possibilità di bootfitting"
+          },
+          "fieldName": "labBootfitting",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Buckle mechanism",
+            "it": "Funzionalità ganci"
+          },
+          "fieldName": "labBuckles",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 208,
+      "label": {
+        "en": "Cuff ROM",
+        "it": "Mobilità gambetto"
+      },
+      "fieldName": "cuffRom",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "deg",
+        "it": "gradi"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 209,
+      "label": {
+        "en": "No. of buckles",
+        "it": "Numero leve"
+      },
+      "fieldName": "leverNumber",
+      "lockable": false,
+      "type": "range",
+      "isOpen": false,
+      "step": 1
+    },
+    {
+      "order": 210,
+      "label": {
+        "en": "Shell material",
+        "it": "Materiale scafo"
+      },
+      "fieldName": "shellMaterials",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 211,
+      "label": {
+        "en": "Cuff material",
+        "it": "Materiale gambetto"
+      },
+      "fieldName": "linerMaterials",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 212,
+      "label": {
+        "en": "Last minimum",
+        "it": "Last minimo"
+      },
+      "fieldName": "lastMin",
+      "lockable": true,
+      "type": "range",
+      "unit": {
+        "en": "mm",
+        "it": "mm"
+      },
+      "isOpen": false
+    },
+    {
+      "order": 213,
+      "label": {
+        "en": "Last maximum",
+        "it": "Last massimo"
+      },
+      "fieldName": "lastMax",
+      "lockable": true,
+      "type": "range",
+      "unit": {
+        "en": "mm",
+        "it": "mm"
+      },
+      "isOpen": false
+    }
+  ],
+  "splitboard_boot": [
+    {
+      "order": 1,
+      "label": {
+        "en": "Categories",
+        "it": "Categorie"
+      },
+      "fieldName": "categories",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 7,
+      "label": {
+        "en": "Color",
+        "it": "Colore"
+      },
+      "fieldName": "colors",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 500,
+      "isOpen": true,
+      "label": {
+        "en": "Good performance in",
+        "it": "Si comporta bene in"
+      },
+      "type": "multichoice-interval",
+      "fieldName": [
+        "featSupportLateral",
+        "featComfort",
+        "featRigidity",
+        "featSoleFit"
+      ],
+      "choices": [
+        {
+          "label": {
+            "en": "Side support",
+            "it": "Appoggio laterale"
+          },
+          "fieldName": "featSupportLateral",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Comfort",
+            "it": "Comfort"
+          },
+          "fieldName": "featComfort",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Rigidity",
+            "it": "Rigidità"
+          },
+          "fieldName": "featRigidity",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Sole fit",
+            "it": "Fit suola"
+          },
+          "fieldName": "featSoleFit",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 504,
+      "isOpen": true,
+      "label": {
+        "en": "Performance profile",
+        "it": "Buona pedisposizione per"
+      },
+      "type": "multichoice-interval",
+      "fieldName": ["funFreeride", "alpinism", "longHike"],
+      "choices": [
+        {
+          "label": {
+            "en": "Fun freeride",
+            "it": "Fun freeride"
+          },
+          "fieldName": "funFreeride",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Alpinism",
+            "it": "Alpinism"
+          },
+          "fieldName": "alpinism",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Long Hike",
+            "it": "Long Hike"
+          },
+          "fieldName": "longHike",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 507,
+      "isOpen": true,
+      "label": {
+        "en": "Suitable for riders",
+        "it": "Indicato per splitboarder"
+      },
+      "type": "multichoice-interval",
+      "fieldName": [
+        "levelBeginner",
+        "levelGrowing",
+        "levelAdvanced",
+        "levelHigh"
+      ],
+      "choices": [
+        {
+          "label": {
+            "en": "Beginner",
+            "it": "Beginner"
+          },
+          "fieldName": "levelBeginner",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Intermediate",
+            "it": "Intermediate"
+          },
+          "fieldName": "levelGrowing",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Advanced",
+            "it": "Advanced"
+          },
+          "fieldName": "levelAdvanced",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Pro",
+            "it": "Pro"
+          },
+          "fieldName": "levelHigh",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    }
+  ],
+  "ski": [
+    {
+      "order": 1,
+      "label": {
+        "en": "Categories",
+        "it": "Categorie"
+      },
+      "fieldName": "categories",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 2,
+      "label": {
+        "en": "Skier type",
+        "it": "Tipo di skier"
+      },
+      "fieldName": "skierTypes",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 7,
+      "label": {
+        "en": "Color",
+        "it": "Colore"
+      },
+      "fieldName": "colors",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 100,
+      "isOpen": true,
+      "label": {
+        "en": "Performance on snow",
+        "it": "Rendimento su neve"
+      },
+      "type": "multichoice-interval",
+      "fieldName": ["snowPowder", "snowHard", "snowCrust", "snowWet"],
+      "choices": [
+        {
+          "label": {
+            "en": "Powder",
+            "it": "Farinosa"
+          },
+          "fieldName": "snowPowder",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Hard / packed",
+            "it": "Dura / portante"
+          },
+          "fieldName": "snowHard",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Wind-blown / crust",
+            "it": "Ventata / crosta"
+          },
+          "fieldName": "snowCrust",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Damp / wet",
+            "it": "Umida / bagnata"
+          },
+          "fieldName": "snowWet",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 104,
+      "isOpen": true,
+      "label": {
+        "en": "Ideal for",
+        "it": "Ideale per"
+      },
+      "type": "multichoice-interval",
+      "fieldName": ["slope", "summit", "line"],
+      "choices": [
+        {
+          "label": {
+            "en": "Downhill",
+            "it": "Pendio"
+          },
+          "fieldName": "slope",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Summit",
+            "it": "Cima"
+          },
+          "fieldName": "summit",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Line",
+            "it": "Linea"
+          },
+          "fieldName": "line",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 107,
+      "isOpen": true,
+      "label": {
+        "en": "Suitable for",
+        "it": "Adatto a"
+      },
+      "type": "multichoice-interval",
+      "fieldName": [
+        "levelBeginner",
+        "levelGrowing",
+        "levelAdvanced",
+        "levelHigh"
+      ],
+      "choices": [
+        {
+          "label": {
+            "en": "Beginner",
+            "it": "Principiante"
+          },
+          "fieldName": "levelBeginner",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Intermediate",
+            "it": "In crescita"
+          },
+          "fieldName": "levelGrowing",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Advanced",
+            "it": "Avanzato"
+          },
+          "fieldName": "levelAdvanced",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Pro",
+            "it": "Alto livello"
+          },
+          "fieldName": "levelHigh",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 111,
+      "label": {
+        "en": "Declared center width",
+        "it": "Larghezza centro dichiarata"
+      },
+      "fieldName": "waistWidthDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "mm",
+        "it": "mm"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 112,
+      "label": {
+        "en": "Declared tail width",
+        "it": "Larghezza coda dichiarata"
+      },
+      "fieldName": "tailWidthDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "mm",
+        "it": "mm"
+      },
+      "isOpen": false
+    },
+    {
+      "order": 113,
+      "label": {
+        "en": "Declared tip width",
+        "it": "Larghezza punta dichiarata"
+      },
+      "fieldName": "tipWidthDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "mm",
+        "it": "mm"
+      },
+      "isOpen": false
+    },
+    {
+      "order": 114,
+      "label": {
+        "en": "Surface bearing capacity",
+        "it": "Superficie portanza"
+      },
+      "fieldName": "liftSurface",
+      "lockable": true,
+      "type": "range",
+      "unit": {
+        "en": "cm²",
+        "it": "cm²"
+      },
+      "isOpen": false
+    },
+    {
+      "order": 115,
+      "label": {
+        "en": "Declared curve radius",
+        "it": "Raggio di curva dichiarato"
+      },
+      "fieldName": "curveRadiusDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "m",
+        "it": "m"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 116,
+      "label": {
+        "en": "Curve arc indicated",
+        "it": "Arco di curva indicato"
+      },
+      "fieldName": "suggestedArcCurve",
+      "lockable": true,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 117,
+      "label": {
+        "en": "Construction",
+        "it": "Costruzione"
+      },
+      "fieldName": "construction",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 118,
+      "label": {
+        "en": "Materials",
+        "it": "Materiali"
+      },
+      "fieldName": "materials",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 119,
+      "label": {
+        "en": "Tail rocker",
+        "it": "Rocker in coda"
+      },
+      "fieldName": "rockerTail",
+      "lockable": true,
+      "type": "range",
+      "unit": {
+        "en": "cm",
+        "it": "cm"
+      },
+      "isOpen": false
+    },
+    {
+      "order": 120,
+      "label": {
+        "en": "Tip rocker",
+        "it": "Rocker in punta"
+      },
+      "fieldName": "rockerTip",
+      "lockable": true,
+      "type": "range",
+      "unit": {
+        "en": "cm",
+        "it": "cm"
+      },
+      "isOpen": false
+    }
+  ],
+  "probe": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 770,
+      "label": {
+        "en": "Materials",
+        "it": "Materiali"
+      },
+      "fieldName": "material",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 771,
+      "label": {
+        "en": "Open length",
+        "it": "Lunghezza aperta"
+      },
+      "fieldName": "openLength",
+      "lockable": true,
+      "type": "range",
+      "unit": {
+        "en": "cm",
+        "it": "cm"
+      },
+      "isOpen": false
+    }
+  ],
+  "splitboard": [
+    {
+      "order": 1,
+      "label": {
+        "en": "Categories",
+        "it": "Categorie"
+      },
+      "fieldName": "categories",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 7,
+      "label": {
+        "en": "Color",
+        "it": "Colore"
+      },
+      "fieldName": "colors",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": false
+    },
+    {
+      "order": 400,
+      "isOpen": true,
+      "label": {
+        "en": "Good performance for",
+        "it": "Buona predisposizione per"
+      },
+      "type": "multichoice-interval",
+      "fieldName": ["funReeride", "bigMountain", "longHike", "steep"],
+      "choices": [
+        {
+          "label": {
+            "en": "Fun freeride",
+            "it": "Fun freeride"
+          },
+          "fieldName": "funReeride",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Big Mountain",
+            "it": "Big Mountain"
+          },
+          "fieldName": "bigMountain",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Long Hike",
+            "it": "Long Hike"
+          },
+          "fieldName": "longHike",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Steep",
+            "it": "Steep"
+          },
+          "fieldName": "steep",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 404,
+      "isOpen": true,
+      "label": {
+        "en": "Suitable for rider",
+        "it": "Indicato per splitboarder"
+      },
+      "type": "multichoice-interval",
+      "fieldName": [
+        "levelBeginner",
+        "levelGrowing",
+        "levelAdvanced",
+        "levelHigh"
+      ],
+      "choices": [
+        {
+          "label": {
+            "en": "Beginner",
+            "it": "Beginner"
+          },
+          "fieldName": "levelBeginner",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Intermediate",
+            "it": "Intermediate"
+          },
+          "fieldName": "levelGrowing",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Advanced",
+            "it": "Advanced"
+          },
+          "fieldName": "levelAdvanced",
+          "v_min": 7,
+          "v_max": 10
+        },
+        {
+          "label": {
+            "en": "Pro",
+            "it": "Pro"
+          },
+          "fieldName": "levelHigh",
+          "v_min": 7,
+          "v_max": 10
+        }
+      ]
+    },
+    {
+      "order": 408,
+      "label": {
+        "en": "Sidecut radius",
+        "it": "Raggio di sciancratura"
+      },
+      "fieldName": "sidecutRadius",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "m",
+        "it": "m"
+      },
+      "isOpen": false
+    }
+  ],
+  "backpack": [
+    {
+      "order": 3,
+      "label": {
+        "en": "Brand",
+        "it": "Marca"
+      },
+      "fieldName": "brand",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 4,
+      "label": {
+        "en": "Buyer's Guide Awards",
+        "it": "Premi Buyer's Guide"
+      },
+      "fieldName": "awards",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 5,
+      "label": {
+        "en": "Price €",
+        "it": "Prezzo €"
+      },
+      "fieldName": "priceEur",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "€",
+        "it": "€"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 6,
+      "label": {
+        "en": "Declared Weight",
+        "it": "Peso dichiarato"
+      },
+      "fieldName": "weightDeclared",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "gr",
+        "it": "gr"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 740,
+      "label": {
+        "en": "Inflation type",
+        "it": "Tipologia gonfiaggio"
+      },
+      "fieldName": "inflationType",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 741,
+      "label": {
+        "en": "Inflation system",
+        "it": "Sistema gonfiaggio"
+      },
+      "fieldName": "inflationSystem",
+      "lockable": false,
+      "type": "multichoice",
+      "isOpen": true
+    },
+    {
+      "order": 743,
+      "label": {
+        "en": "Volume",
+        "it": "Volume"
+      },
+      "fieldName": "volume",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "L",
+        "it": "L"
+      },
+      "isOpen": true
+    },
+    {
+      "order": 744,
+      "label": {
+        "en": "Volume with airbag",
+        "it": "Volume con airbag"
+      },
+      "fieldName": "volumeAirbag",
+      "lockable": false,
+      "type": "range",
+      "unit": {
+        "en": "L",
+        "it": "L"
+      },
+      "isOpen": true
+    }
+  ]
+}

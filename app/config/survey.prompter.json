@@ -1,0 +1,294 @@
+{
+  "prompter": [
+    {
+      "questions": [
+        {
+          "question": {
+            "en": "What is your idea of a mountain?",
+            "it": "Qual è la tua idea di montagna?"
+          },
+          "type": "singlechoice-image",
+          "helpText": {
+            "en": "First of all, you need to tell us what you would like to use the equipment for because there are many ways to approach ski mountaineering, and the weight, width, type of construction, and materials of the ski or boot make a difference. They can turn a complicated day into a memorable one.",
+            "it": "Prima di tutto devi dirci per che cosa vorresti usare l’attrezzatura, perché ci sono tanti modi di affrontare lo scialpinismo e peso, larghezza, tipo di costruzione e materiali dello sci o dello scarpone fanno la differenza. E possono trasformare una giornata complicata in un giorno da ricordare."
+          },
+          "fieldName": "user_pourpouse",
+          "choices": {
+            "en": [
+              {
+                "label": "I like being in the mountains but without great expectations",
+                "imageUrl": "/assets/survey/senzaaspettative.jpg"
+              },
+              {
+                "label": "To stay in shape",
+                "imageUrl": "/assets/survey/mantenermiinforma.jpg"
+              },
+              {
+                "label": "To conquer one peak after another, even with mountaineering engagement",
+                "imageUrl": "/assets/survey/inanellarecime.jpg"
+              },
+              {
+                "label": "A bit of everything, but ultimately having fun skiing",
+                "imageUrl": "/assets/survey/divertirsisciando.jpg"
+              },
+              {
+                "label": "Powder when it snows",
+                "imageUrl": "/assets/survey/lapolverequandonevica.jpg"
+              }
+            ],
+            "it": [
+              {
+                "label": "Mi piace stare in montagna ma senza grandi aspettative",
+                "imageUrl": "/assets/survey/senzaaspettative.jpg"
+              },
+              {
+                "label": "Mantenermi in forma",
+                "imageUrl": "/assets/survey/mantenermiinforma.jpg"
+              },
+              {
+                "label": "Inanellare una cima dietro l'altra, anche con ingaggio alpinistico",
+                "imageUrl": "/assets/survey/inanellarecime.jpg"
+              },
+              {
+                "label": "Di tutto un po’ ma alla fine divertirsi sciando",
+                "imageUrl": "/assets/survey/divertirsisciando.jpg"
+              },
+              {
+                "label": "La polvere quando nevica",
+                "imageUrl": "/assets/survey/lapolverequandonevica.jpg"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "question": {
+            "en": "What skiing experience do you have?",
+            "it": "Che esperienza sciistica hai?"
+          },
+          "type": "singlechoice-image",
+          "helpText": {
+            "en": "We know that since the days of Tomba, everyone wants his ski and calls themselves champions, but if you don't tell us how you really ski, we risk recommending a ski that is too hard to turn or a boot that feels like a piece of marble. The equipment suitable for your level is the best prerequisite for an unforgettable outing.",
+            "it": "Lo sappiamo che è dai tempi di Tomba che tutti vogliono il suo sci e si definiscono campioni, ma se non ci dici come scii veramente, rischiamo di consigliarti uno sci troppo faticoso da fare girare o uno scarpone che ti sembrerà un pezzo di marmo. L’attrezzatura adatta al proprio livello è il migliore presupposto per una gita indimenticabile."
+          },
+          "fieldName": "user_experience",
+          "choices": {
+            "en": [
+              {
+                "label": "I am a beginner",
+                "imageUrl": "/assets/survey/sonoalleprimearmi.jpg"
+              },
+              {
+                "label": "I have always skied on the slopes",
+                "imageUrl": "/assets/survey/hosempresciatoinpista.jpg"
+              },
+              {
+                "label": "Comfortable on all types of snow",
+                "imageUrl": "/assets/survey/amioagiosututtiitipidineve.jpg"
+              },
+              {
+                "label": "Excellent downhill technique on all types of snow",
+                "imageUrl": "/assets/survey/ottimatecnicasciisticasututtiitipidineve.jpg"
+              }
+            ],
+            "it": [
+              {
+                "label": "Sono alle prime armi",
+                "imageUrl": "/assets/survey/sonoalleprimearmi.jpg"
+              },
+              {
+                "label": "Ho sempre sciato in pista",
+                "imageUrl": "/assets/survey/hosempresciatoinpista.jpg"
+              },
+              {
+                "label": "A mio agio su tutti i tipi di neve",
+                "imageUrl": "/assets/survey/amioagiosututtiitipidineve.jpg"
+              },
+              {
+                "label": "Ottima tecnica di discesa su tutti i tipi di neve",
+                "imageUrl": "/assets/survey/ottimatecnicasciisticasututtiitipidineve.jpg"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "question": {
+            "en": "What is your physical preparation like?",
+            "it": "Che preparazione fisica hai?"
+          },
+          "type": "singlechoice-image",
+          "helpText": {
+            "en": "To achieve results, commitment is required. It's not just grandmothers saying it, but also the mountain, which rewards those with a minimum level of physical preparation. But if you really don't want to bother, it's better to go for easy and affordable ski equipment.",
+            "it": "Per ottenere risultati, ci vuole impegno. Non sono solo le nonne a dirlo, ma anche la montagna, che premia chi ha un minimo di preparazione fisica. Ma se proprio non ne vuoi sapere, meglio uno sci facile ed economico…"
+          },
+          "fieldName": "user_training",
+          "choices": {
+            "en": [
+              {
+                "label": "Couch potato",
+                "imageUrl": "/assets/survey/divanista.jpg"
+              },
+              {
+                "label": "Intermediate",
+                "imageUrl": "/assets/survey/intermedio.jpg"
+              },
+              {
+                "label": "I stay trained regularly",
+                "imageUrl": "/assets/survey/mitengoallenatoconcostanza.jpg"
+              }
+            ],
+            "it": [
+              {
+                "label": "Divanista",
+                "imageUrl": "/assets/survey/divanista.jpg"
+              },
+              {
+                "label": "Intermedio",
+                "imageUrl": "/assets/survey/intermedio.jpg"
+              },
+              {
+                "label": "Mi tengo allenato con costanza",
+                "imageUrl": "/assets/survey/mitengoallenatoconcostanza.jpg"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "question": {
+            "en": "Who are you going with?",
+            "it": "Con chi vai?"
+          },
+          "type": "singlechoice-image",
+          "helpText": {
+            "en": "Skiing level and training are important, but if you show up with a 70mm waist ski at a freerider gathering, you're definitely starting off on the wrong foot.",
+            "it": "Va bene il livello sciistico e l’allenamento, ma se ti presenti con uno stuzzicadenti da 70 mm al centro a un raduno di freerider parti sicuramente con il piede sbagliato."
+          },
+          "fieldName": "user_group_type",
+          "choices": {
+            "en": [
+              {
+                "label": "CAI course",
+                "imageUrl": "/assets/survey/cai.jpg"
+              },
+              {
+                "label": "Friends who go at my pace",
+                "imageUrl": "/assets/survey/amicichevannoalmiopasso.jpg"
+              },
+              {
+                "label": "People who push my limits",
+                "imageUrl": "/assets/survey/gentechemitirailcollo.jpg"
+              },
+              {
+                "label": "Lifts and short transfers with skins",
+                "imageUrl": "/assets/survey/impiantiebrevitrsferimenticonlepelli.jpg"
+              }
+            ],
+            "it": [
+              {
+                "label": "Corso CAI",
+                "imageUrl": "/assets/survey/cai.jpg"
+              },
+              {
+                "label": "Amici che vanno al mio passo",
+                "imageUrl": "/assets/survey/amicichevannoalmiopasso.jpg"
+              },
+              {
+                "label": "Gente che mi tira il collo",
+                "imageUrl": "/assets/survey/gentechemitirailcollo.jpg"
+              },
+              {
+                "label": "Impianti e brevi trasferimenti con le pelli",
+                "imageUrl": "/assets/survey/impiantiebrevitrsferimenticonlepelli.jpg"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Dicci qualcosa di te",
+        "en": "Tell us something about you"
+      },
+      "questions": [
+        {
+          "question": {
+            "en": "How much do you weigh?",
+            "it": "Quanto Pesi"
+          },
+          "type": "range",
+          "unit": "kg",
+          "fieldName": "user_weight",
+          "range": {
+            "min": 40,
+            "max": 140
+          },
+          "helpText": {
+            "en": "Weighing is not necessarily a bad thing because the heavier you are, the faster you go downhill, but you also need equipment that can handle a significant push. Or not too structured if you prefer a gentler skiing style.",
+            "it": "Pesare non è necessariamente una brutta cosa, perché più si è pesanti, più si va giù veloci, però ci vogliono anche attrezzi in grado di sopportare una spinta importante. Oppure non troppo strutturati se hai una sciata più gentile."
+          }
+        },
+        {
+          "question": {
+            "en": "Gender",
+            "it": "Genere"
+          },
+          "type": "singlechoice",
+          "fieldName": "user_genre",
+          "choices": {
+            "it": ["Uomo", "Donna", "Preferisco non dichiararmi"],
+            "en": ["Male", "Female", "Prefer not to say"]
+          },
+          "helpText": {
+            "en": "Politically correct or not, the issue of equipment for men and women is a debated one. Some focus only on bright colors, while others produce skis with more accommodating flex values. And some simply recommend softer skis for younger people, lighter men, and women. One thing is certain: the female foot is different, and so is the boot.",
+            "it": "Politically correct o no, quella dell’attrezzo da uomo e da donna è una questione dibattuta. C’è chi punta solo sui colori sgargianti e chi produce sci con valori di flex più concilianti. E chi, semplicemente, quegli sci più morbidi li indica per ragazzi, uomini più leggeri e donne. Una cosa è certa però: il piede femminile è diverso e lo scarpone anche."
+          }
+        },
+        {
+          "question": {
+            "en": "How old are you?",
+            "it": "Quanti anni hai?"
+          },
+          "type": "singlechoice",
+          "fieldName": "user_age",
+          "choices": {
+            "en": ["Under 18", "18-35", "36-50", "51-65", "66-90"],
+            "it": ["Meno di 18", "18-35", "36-50", "51-65", "66-90"]
+          },
+          "helpText": {
+            "en": "If you're young, you have more energy but less experience; if you have experience, maybe you want to exert less effort ;)",
+            "it": "Se sei giovane, sei più energico, ma hai meno esperienza; se hai esperienza, magari vuoi fare meno fatica ;)"
+          }
+        },
+        {
+          "question": {
+            "en": "What is your height?",
+            "it": "Qual è la tua altezza?"
+          },
+          "type": "range",
+          "fieldName": "user_height",
+          "unit": "cm",
+          "range": {
+            "min": 120,
+            "max": 240
+          },
+          "helpText": {
+            "en": "No shorter than your height, but ski length matters: shorter for helping with turns, longer for speed, or wider for floatation while shortening to save weight. Also, consider that heavily rockered skis respond like shorter equipment.",
+            "it": "Più basso della tua altezza no, però l’altezza dello sci conta: più corto per aiutare le inversioni, più lungo per andare più veloci, oppure largo per galleggiare, ma accorciando per risparmiare peso. E poi considera che sci molto rockerati rispondono come attrezzi più corti."
+          }
+        }
+      ]
+    }
+  ]
+}

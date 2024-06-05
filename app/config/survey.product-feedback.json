@@ -1,0 +1,1847 @@
+{
+  "ski": [
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "L'hai comprato nuovo o usato?",
+            "en": "Did you buy new or used?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "new_or_used",
+          "choices": {
+            "it": ["Nuovo", "Usato"],
+            "en": ["New", "Used"]
+          }
+        },
+        {
+          "question": {
+            "it": "L'hai comprato in un negozio fisico o online?",
+            "en": "Did you buy in store or online?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "store_type",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Dove l'hai comprato?",
+            "en": "Where did you buy it?"
+          },
+          "type": "input",
+          "helpText": {
+            "it": "Inserisci il nome del negozio fisico o l'indirizzo web (URL) del negozio online",
+            "en": "Enter the name of the store or the URL of the website"
+          },
+          "fieldName": "store_details",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi dirci quanto l'hai pagato",
+            "en": "Would you mind telling us how much you paid?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "price",
+          "input": {
+            "type": "number"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi commentare i servizi post-vendita?",
+            "en": "Any comments about the post-sale services?"
+          },
+          "type": "text",
+          "helpText": {
+            "it": "Ti hanno fornito assistenza, montaggio attacchi, configurazioni particolari?",
+            "en": "Did you get assistance? Binding installation? Special configurations?"
+          },
+          "fieldName": "assistance",
+          "input": {
+            "type": "text"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Per quale tipo di utilizzatore è indicato?",
+            "en": "For what type of use is it recommended?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "ski.usage_suggestions",
+          "choices": {
+            "it": ["Alpinista", "Sciatore", "Non saprei"],
+            "en": ["Mountaineer", "Skier", "I don’t know"]
+          }
+        },
+        {
+          "question": {
+            "it": "Per quale arco di curva è più indicato?",
+            "en": "For what sidecut is it most suited?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "ski.suggested_arc_curve",
+          "choices": {
+            "it": [
+              "Corto raggio",
+              "Medio raggio",
+              "Lungo raggio",
+              "Non saprei"
+            ],
+            "en": [
+              "Short radius",
+              "Medium radius",
+              "Long radius",
+              "I don’t know"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Per quale tipo di gita è indicato?",
+            "en": "For what type of outing is it most suited?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "ski.trip_purpose",
+          "choices": {
+            "it": ["Cima", "Linea", "Pendio", "Non saprei"],
+            "en": ["Summit", "Line", "Steep", "I don’t know"]
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta su neve dura / portante?",
+            "en": "How does it handle on hard/packed snow?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "ski.snow_hard",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta su neve ventata / crosta",
+            "en": "How does it handle on snow drifts/crust?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "ski.snow_crust",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta su neve umida / bagnata",
+            "en": "How does it handle on wet snow?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "ski.snow_wet",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta su neve farinosa",
+            "en": "How does it handle on powdery snow?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "ski.snow_powder",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "In quale livello tecnico ti riconosci?",
+            "en": "How would you rate your skill?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "ski.level",
+          "choices": {
+            "it": [
+              "Principiante",
+              "in crescita",
+              "avazato, alto livello",
+              "Non saprei"
+            ],
+            "en": [
+              "Beginner",
+              "improving",
+              "advanced",
+              "expert",
+              "I don’t know"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto consiglieresti questo prodotto per sciatori del tuo livello?",
+            "en": "How would you rate this product for skiers of your same level?"
+          },
+          "type": "range",
+          "helpText": {
+            "it": "1 lo consideriamo totalmente sbagliato e 10 perfetto per quel livello",
+            "en": "1 = totally wrong; 10 = perfect for this level"
+          },
+          "fieldName": "ski.level_recommendation",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Con che scarpone lo usi?",
+            "en": "What boot do you use with it?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "ski.related_boot",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Con che attacco lo hai montato?",
+            "en": "What binding do you use?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "ski.related_binding",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Hai provato il prodotto prima di comprarlo?",
+            "en": "Did you try the product before your purchase?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "ski.test_before_buying",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Il prodotto ha rispettato le tue aspettative?",
+            "en": "Did the product meet your expectations?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "ski.meet_expectations",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "I giudizi della Buyer's Guide su questo prodotto ti hanno aiutato?",
+            "en": "Were the reviews in the Buyer’s Guide for this product helpful?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "ski.buyers_guide_helpful",
+          "choices": {
+            "it": [
+              "Mi sono ritrovato al 100%",
+              "Parzialmente d'accordo",
+              "Poco utile",
+              "No, Non li avevo visti"
+            ],
+            "en": [
+              "100% agree",
+              "Agree in part",
+              "Not very helpful",
+              "No, I didn’t see them"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Cosa ne pensi di questo prodotto?",
+            "en": "What are your impressions of this product?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "ski.impressions",
+          "range": {
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "question": {
+            "it": "Hai riscontrato problemi di rottura",
+            "en": "Did you have any problems with breakage?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "ski.breakage",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Se sì, vuoi dirci quali?",
+            "en": "If so, could you tell us what sort of problem?"
+          },
+          "type": "text",
+          "helpText": {},
+          "fieldName": "ski.breakage_details",
+          "optional": true
+        },
+        {
+          "question": {
+            "it": "Sei riuscito a risolverli?",
+            "en": "Were you able to resolve the issue?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "ski.breakage_resolved",
+          "choices": {
+            "it": [
+              "Grazie all'azienda",
+              "Grazie al negozio",
+              "Fai da te",
+              "No",
+              "Altro"
+            ],
+            "en": [
+              "With the manufacturer",
+              "With the store",
+              "DIY",
+              "No",
+              "Other"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "boot": [
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "L'hai comprato nuovo o usato?",
+            "en": "Did you buy new or used?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "new_or_used",
+          "choices": {
+            "it": ["Nuovo", "Usato"],
+            "en": ["New", "Used"]
+          }
+        },
+        {
+          "question": {
+            "it": "L'hai comprato in un negozio fisico o online?",
+            "en": "Did you buy in store or online?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "store_type",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Dove l'hai comprato?",
+            "en": "Where did you buy it?"
+          },
+          "type": "input",
+          "helpText": {
+            "it": "Inserisci il nome del negozio fisico o l'indirizzo web (URL) del negozio online",
+            "en": "Enter the name of the store or the URL of the website"
+          },
+          "fieldName": "store_details",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi dirci quanto l'hai pagato",
+            "en": "Would you mind telling us how much you paid?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "price",
+          "input": {
+            "type": "number"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi commentare i servizi post-vendita?",
+            "en": "Any comments about the post-sale services?"
+          },
+          "type": "text",
+          "helpText": {
+            "it": "Ti hanno fornito assistenza, montaggio attacchi, configurazioni particolari?",
+            "en": "Did you get assistance? Binding installation? Special configurations?"
+          },
+          "fieldName": "assistance",
+          "input": {
+            "type": "text"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Come si comporta nella salita con gli sci?",
+            "en": "How does it perform on the ski when climbing?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "boot.performance_skis_ascent",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta nella camminata?",
+            "en": "How does it perform on the flat?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "boot.performance_walk",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta in arrampicata?",
+            "en": "How does it perform when climbing?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "boot.performance_climbing",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta in sciata?",
+            "en": "How does it perform when skiing?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "boot.performance_skiing",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Che giudizio dai al sistema ganci/chiusure?",
+            "en": "How would you rate the buckles/closure?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "boot.lab_buckles",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Che giudizio dai al sistema walk/ski?",
+            "en": "How would you rate the walk mode?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "boot.lab_skiwalk",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Che giudizio dai alla compatibilità ramponi?",
+            "en": "How would you rate the crampon compatibility?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "boot.lab_cramponability",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Con che sci lo usi?",
+            "en": "What skis do you use it with?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "boot.related_skis",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Con che attacco è montato lo sci?",
+            "en": "What binding is mounted on the ski?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "boot.related_binding",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Hai provato il prodotto prima di comprarlo?",
+            "en": "Did you try the product before your purchase?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "boot.test_before_buying",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Il prodotto ha rispettato le tue aspettative?",
+            "en": "Did the product meet your expectations?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "boot.meet_expectations",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "I giudizi della Buyer's Guide su questo prodotto ti hanno aiutato?",
+            "en": "Were the reviews in the Buyer’s Guide for this product helpful?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "boot.buyers_guide_helpful",
+          "choices": {
+            "it": [
+              "Mi sono ritrovato al 100%",
+              "Parzialmente d'accordo",
+              "Poco utile",
+              "No, Non li avevo visti"
+            ],
+            "en": [
+              "100% agree",
+              "Agree in part",
+              "Not very helpful",
+              "No, I didn’t see them"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Cosa ne pensi di questo prodotto?",
+            "en": "What are your impressions of this product?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "boot.impressions",
+          "range": {
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "question": {
+            "it": "Hai riscontrato problemi di rottura",
+            "en": "Did you have any problems with breakage?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "boot.breakage",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Se sì, vuoi dirci quali?",
+            "en": "If so, could you tell us what sort of problem?"
+          },
+          "type": "text",
+          "helpText": {},
+          "fieldName": "boot.breakage_details",
+          "optional": true
+        },
+        {
+          "question": {
+            "it": "Sei riuscito a risolverli?",
+            "en": "Were you able to resolve the issue?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "boot.breakage_resolved",
+          "choices": {
+            "it": [
+              "Grazie all'azienda",
+              "Grazie al negozio",
+              "Fai da te",
+              "No",
+              "Altro"
+            ],
+            "en": [
+              "With the manufacturer",
+              "With the store",
+              "DIY",
+              "No",
+              "Other"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "binding": [
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "L'hai comprato nuovo o usato?",
+            "en": "Did you buy new or used?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "new_or_used",
+          "choices": {
+            "it": ["Nuovo", "Usato"],
+            "en": ["New", "Used"]
+          }
+        },
+        {
+          "question": {
+            "it": "L'hai comprato in un negozio fisico o online?",
+            "en": "Did you buy in store or online?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "store_type",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Dove l'hai comprato?",
+            "en": "Where did you buy it?"
+          },
+          "type": "input",
+          "helpText": {
+            "it": "Inserisci il nome del negozio fisico o l'indirizzo web (URL) del negozio online",
+            "en": "Enter the name of the store or the URL of the website"
+          },
+          "fieldName": "store_details",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi dirci quanto l'hai pagato",
+            "en": "Would you mind telling us how much you paid?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "price",
+          "input": {
+            "type": "number"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi commentare i servizi post-vendita?",
+            "en": "Any comments about the post-sale services?"
+          },
+          "type": "text",
+          "helpText": {
+            "it": "Ti hanno fornito assistenza, montaggio attacchi, configurazioni particolari?",
+            "en": "Did you get assistance? Binding installation? Special configurations?"
+          },
+          "fieldName": "assistance",
+          "input": {
+            "type": "text"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Facilità di entrata nei pin del puntale",
+            "en": "Ease of putting toe in the pin"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "binding.stepin",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Maneggevolezza e praticità di utilizzo",
+            "en": "Ease of use and practicality"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "binding.practicality",
+          "range": {
+            "min": "1",
+            "max": "10"
+          }
+        },
+        {
+          "question": {
+            "it": "Su che sci l'hai montato?",
+            "en": "What skis did you put it on?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "binding.related_skis",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Con che scarpone lo usi?",
+            "en": "What boot do you use with it?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "binding.related_boot",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Hai provato il prodotto prima di comprarlo?",
+            "en": "Did you try the product before your purchase?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "binding.test_before_buying",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Il prodotto ha rispettato le tue aspettative?",
+            "en": "Did the product meet your expectations?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "binding.meet_expectations",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "I giudizi della Buyer's Guide su questo prodotto ti hanno aiutato?",
+            "en": "Were the reviews in the Buyer’s Guide for this product helpful?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "binding.buyers_guide_helpful",
+          "choices": {
+            "it": [
+              "Mi sono ritrovato al 100%",
+              "Parzialmente d'accordo",
+              "Poco utile",
+              "No, Non li avevo visti"
+            ],
+            "en": [
+              "100% agree",
+              "Agree in part",
+              "Not very helpful",
+              "No, I didn’t see them"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Cosa ne pensi di questo prodotto?",
+            "en": "What are your impressions of this product?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "binding.impressions",
+          "range": {
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "question": {
+            "it": "Hai riscontrato problemi di rottura",
+            "en": "Did you have any problems with breakage?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "binding.breakage",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Se sì, vuoi dirci quali?",
+            "en": "If so, could you tell us what sort of problem?"
+          },
+          "type": "text",
+          "helpText": {},
+          "fieldName": "binding.breakage_details",
+          "optional": true
+        },
+        {
+          "question": {
+            "it": "Sei riuscito a risolverli?",
+            "en": "Were you able to resolve the issue?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "binding.breakage_resolved",
+          "choices": {
+            "it": [
+              "Grazie all'azienda",
+              "Grazie al negozio",
+              "Fai da te",
+              "No",
+              "Altro"
+            ],
+            "en": [
+              "With the manufacturer",
+              "With the store",
+              "DIY",
+              "No",
+              "Other"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "splitboard": [
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "L'hai comprato nuovo o usato?",
+            "en": "Did you buy new or used?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "new_or_used",
+          "choices": {
+            "it": ["Nuovo", "Usato"],
+            "en": ["New", "Used"]
+          }
+        },
+        {
+          "question": {
+            "it": "L'hai comprato in un negozio fisico o online?",
+            "en": "Did you buy in store or online?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "store_type",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Dove l'hai comprato?",
+            "en": "Where did you buy it?"
+          },
+          "type": "input",
+          "helpText": {
+            "it": "Inserisci il nome del negozio fisico o l'indirizzo web (URL) del negozio online",
+            "en": "Enter the name of the store or the URL of the website"
+          },
+          "fieldName": "store_details",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi dirci quanto l'hai pagato",
+            "en": "Would you mind telling us how much you paid?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "price",
+          "input": {
+            "type": "number"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi commentare i servizi post-vendita?",
+            "en": "Any comments about the post-sale services?"
+          },
+          "type": "text",
+          "helpText": {
+            "it": "Ti hanno fornito assistenza, montaggio attacchi, configurazioni particolari?",
+            "en": "Did you get assistance? Binding installation? Special configurations?"
+          },
+          "fieldName": "assistance",
+          "input": {
+            "type": "text"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "In quale livello tecnico ti riconosci?",
+            "en": "How would you rate your skill?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard.level",
+          "choices": {
+            "it": [
+              "Principiante",
+              "in crescita",
+              "avazato, alto livello",
+              "Non saprei"
+            ],
+            "en": [
+              "Beginner",
+              "improving",
+              "advanced",
+              "expert",
+              "I don’t know"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Quanto consiglieresti questo prodotto per snowboarder del tuo livello?",
+            "en": "How would you rate this product for snowboarders of your same level?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "splitboard.level_recommendation",
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo Fun Freeride?",
+            "en": "How does it perform on a fun freeride?"
+          },
+          "type": "range",
+          "fieldName": "splitboard.fun_freeride",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo Big Mountain?",
+            "en": "How does it perform on a big mountain ride?"
+          },
+          "type": "range",
+          "fieldName": "splitboard.big_mountain",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo Long Hike?",
+            "en": "How does it perform on a long hike?"
+          },
+          "type": "range",
+          "fieldName": "splitboard.long_hike",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo Steep?",
+            "en": "How does it perform on steep slopes?"
+          },
+          "type": "range",
+          "fieldName": "splitboard.steep",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Con che scarpone lo usi?",
+            "en": "What boot do you use with it?"
+          },
+          "type": "input",
+
+          "helpText": {},
+          "fieldName": "splitboard.related_boot",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Con che attacco lo usi?",
+            "en": "What binding do you use?"
+          },
+          "type": "input",
+          "fieldName": "splitboard.related_binding",
+          "helpText": {},
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Hai provato il prodotto prima di comprarlo?",
+            "en": "Did you try the product before your purchase?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard.test_before_buying",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Il prodotto ha rispettato le tue aspettative?",
+            "en": "Did the product meet your expectations?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard.meet_expectations",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "I giudizi della Buyer's Guide su questo prodotto ti hanno aiutato?",
+            "en": "Were the reviews in the Buyer’s Guide for this product helpful?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard.buyers_guide_helpful",
+          "choices": {
+            "it": [
+              "Mi sono ritrovato al 100%",
+              "Parzialmente d'accordo",
+              "Poco utile",
+              "No, Non li avevo visti"
+            ],
+            "en": [
+              "100% agree",
+              "Agree in part",
+              "Not very helpful",
+              "No, I didn’t see them"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Cosa ne pensi di questo prodotto?",
+            "en": "What are your impressions of this product?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "splitboard.impressions",
+          "range": {
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "question": {
+            "it": "Hai riscontrato problemi di rottura",
+            "en": "Did you have any problems with breakage?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard.breakage",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Se sì, vuoi dirci quali?",
+            "en": "If so, could you tell us what sort of problem?"
+          },
+          "type": "text",
+          "helpText": {},
+          "fieldName": "splitboard.breakage_details",
+          "optional": true
+        },
+        {
+          "question": {
+            "it": "Sei riuscito a risolverli?",
+            "en": "Were you able to resolve the issue?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard.breakage_resolved",
+          "choices": {
+            "it": [
+              "Grazie all'azienda",
+              "Grazie al negozio",
+              "Fai da te",
+              "No",
+              "Altro"
+            ],
+            "en": [
+              "With the manufacturer",
+              "With the store",
+              "DIY",
+              "No",
+              "Other"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "splitboard_boot": [
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "L'hai comprato nuovo o usato?",
+            "en": "Did you buy new or used?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "new_or_used",
+          "choices": {
+            "it": ["Nuovo", "Usato"],
+            "en": ["New", "Used"]
+          }
+        },
+        {
+          "question": {
+            "it": "L'hai comprato in un negozio fisico o online?",
+            "en": "Did you buy in store or online?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "store_type",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Dove l'hai comprato?",
+            "en": "Where did you buy it?"
+          },
+          "type": "input",
+          "helpText": {
+            "it": "Inserisci il nome del negozio fisico o l'indirizzo web (URL) del negozio online",
+            "en": "Enter the name of the store or the URL of the website"
+          },
+          "fieldName": "store_details",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi dirci quanto l'hai pagato",
+            "en": "Would you mind telling us how much you paid?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "price",
+          "input": {
+            "type": "number"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi commentare i servizi post-vendita?",
+            "en": "Any comments about the post-sale services?"
+          },
+          "type": "text",
+          "helpText": {
+            "it": "Ti hanno fornito assistenza, montaggio attacchi, configurazioni particolari?",
+            "en": "Did you get assistance? Binding installation? Special configurations?"
+          },
+          "fieldName": "assistance",
+          "input": {
+            "type": "text"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quanto consiglieresti questo prodotto per snowboarder del tuo livello?",
+            "en": "How would you rate this product for snowboarders of your same level?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_boot.level_recommendation",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo Fun Freeride?",
+            "en": "How does it perform on a fun freeride?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_boot.fun_freeride",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo alpinistico?",
+            "en": "How does it perform for skimo use?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_boot.skimo",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo Long Hike?",
+            "en": "How does it perform on a long hike?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_boot.long_hike",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Che voto daresti al comfort?",
+            "en": "How would you rate the comfort level?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_boot.comfort",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Che voto daresti alla rigidità?",
+            "en": "How would you rate the stiffness?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_boot.stiffness",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Che voto daresti al fit della suola?",
+            "en": "How would you rate the fit of the sole?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_boot.sole_fit",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Che voto daresti all'appoggio laterale?",
+            "en": "How would you rate the lateral support?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_boot.lateral_support",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Hai provato il prodotto prima di comprarlo?",
+            "en": "Did you try the product before your purchase?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_boot.test_before_buying",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Il prodotto ha rispettato le tue aspettative?",
+            "en": "Did the product meet your expectations?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_boot.meet_expectations",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "I giudizi della Buyer's Guide su questo prodotto ti hanno aiutato?",
+            "en": "Were the reviews in the Buyer’s Guide for this product helpful?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_boot.buyers_guide_helpful",
+          "choices": {
+            "it": [
+              "Mi sono ritrovato al 100%",
+              "Parzialmente d'accordo",
+              "Poco utile",
+              "No, Non li avevo visti"
+            ],
+            "en": [
+              "100% agree",
+              "Agree in part",
+              "Not very helpful",
+              "No, I didn’t see them"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Cosa ne pensi di questo prodotto?",
+            "en": "What are your impressions of this product?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "splitboard_boot.impressions",
+          "range": {
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "question": {
+            "it": "Hai riscontrato problemi di rottura",
+            "en": "Did you have any problems with breakage?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_boot.breakage",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Se sì, vuoi dirci quali?",
+            "en": "If so, could you tell us what sort of problem?"
+          },
+          "type": "text",
+          "helpText": {},
+          "fieldName": "splitboard_boot.breakage_details",
+          "optional": true
+        },
+        {
+          "question": {
+            "it": "Sei riuscito a risolverli?",
+            "en": "Were you able to resolve the issue?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_boot.breakage_resolved",
+          "choices": {
+            "it": [
+              "Grazie all'azienda",
+              "Grazie al negozio",
+              "Fai da te",
+              "No",
+              "Altro"
+            ],
+            "en": [
+              "With the manufacturer",
+              "With the store",
+              "DIY",
+              "No",
+              "Other"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "splitboard_binding": [
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "L'hai comprato nuovo o usato?",
+            "en": "Did you buy new or used?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "new_or_used",
+          "choices": {
+            "it": ["Nuovo", "Usato"],
+            "en": ["New", "Used"]
+          }
+        },
+        {
+          "question": {
+            "it": "L'hai comprato in un negozio fisico o online?",
+            "en": "Did you buy in store or online?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "store_type",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Dove l'hai comprato?",
+            "en": "Where did you buy it?"
+          },
+          "type": "input",
+          "helpText": {
+            "it": "Inserisci il nome del negozio fisico o l'indirizzo web (URL) del negozio online",
+            "en": "Enter the name of the store or the URL of the website"
+          },
+          "fieldName": "store_details",
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi dirci quanto l'hai pagato",
+            "en": "Would you mind telling us how much you paid?"
+          },
+          "type": "input",
+          "helpText": {},
+          "fieldName": "price",
+          "input": {
+            "type": "number"
+          }
+        },
+        {
+          "question": {
+            "it": "Vuoi commentare i servizi post-vendita?",
+            "en": "Any comments about the post-sale services?"
+          },
+          "type": "text",
+          "helpText": {
+            "it": "Ti hanno fornito assistenza, montaggio attacchi, configurazioni particolari?",
+            "en": "Did you get assistance? Binding installation? Special configurations?"
+          },
+          "fieldName": "assistance",
+          "input": {
+            "type": "text"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Dicci la tua",
+        "en": "Tell us yours"
+      },
+      "subtitle": {
+        "it": "In questa scheda ci sono buona parte delle domande che sottoponiamo ai nostri tester professionisti. Le tue risposte ci aiuteranno a valutare più a fondo il prodotto.",
+        "en": "In this form are most of the questions we submit to our professional testers. Your answers will help us evaluate the product more thoroughly."
+      },
+      "questions": [
+        {
+          "question": {
+            "it": "Quanto consiglieresti questo prodotto per snowboarder del tuo livello?",
+            "en": "How would you rate this product for snowboarders of your same level?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_binding.level_recommendation",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo Fun Freeride?",
+            "en": "How does it perform on a fun freeride?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_binding.fun_freeride",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo alpinistico?",
+            "en": "How does it perform for skimo use?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_binding.skimo",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Come si comporta per un utilizzo Long Hike?",
+            "en": "How does it perform on a long hike?"
+          },
+          "type": "range",
+          "fieldName": "splitboard_binding.long_hike",
+          "helpText": {},
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "question": {
+            "it": "Che voto daresti alla rapidità di utilizzo?",
+            "en": "How would you rate the speed of use?"
+          },
+          "type": "text",
+          "fieldName": "splitboard_binding.speed_of_use",
+          "helpText": {}
+        },
+        {
+          "question": {
+            "it": "Che voto daresti al comfort dello strap?",
+            "en": "How would you rate the comfort of the strap?"
+          },
+          "type": "text",
+          "fieldName": "splitboard_binding.comfort_of_strap",
+          "helpText": {}
+        },
+        {
+          "question": {
+            "it": "Che voto daresti alla rigidità dell'hiback?",
+            "en": "How would you rate the stiffness of the hiback?"
+          },
+          "type": "text",
+          "fieldName": "splitboard_binding.stiffness_of_hiback",
+          "helpText": {}
+        },
+        {
+          "question": {
+            "it": "Hai provato il prodotto prima di comprarlo?",
+            "en": "Did you try the product before your purchase?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_binding.test_before_buying",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Il prodotto ha rispettato le tue aspettative?",
+            "en": "Did the product meet your expectations?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_binding.meet_expectations",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "I giudizi della Buyer's Guide su questo prodotto ti hanno aiutato?",
+            "en": "Were the reviews in the Buyer’s Guide for this product helpful?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_binding.buyers_guide_helpful",
+          "choices": {
+            "it": [
+              "Mi sono ritrovato al 100%",
+              "Parzialmente d'accordo",
+              "Poco utile",
+              "No, Non li avevo visti"
+            ],
+            "en": [
+              "100% agree",
+              "Agree in part",
+              "Not very helpful",
+              "No, I didn’t see them"
+            ]
+          }
+        },
+        {
+          "question": {
+            "it": "Cosa ne pensi di questo prodotto?",
+            "en": "What are your impressions of this product?"
+          },
+          "type": "range",
+          "helpText": {},
+          "fieldName": "splitboard_binding.impressions",
+          "range": {
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "question": {
+            "it": "Hai riscontrato problemi di rottura",
+            "en": "Did you have any problems with breakage?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_binding.breakage",
+          "choices": {
+            "it": ["Sì", "No"],
+            "en": ["Yes", "No"]
+          }
+        },
+        {
+          "question": {
+            "it": "Se sì, vuoi dirci quali?",
+            "en": "If so, could you tell us what sort of problem?"
+          },
+          "type": "text",
+          "helpText": {},
+          "fieldName": "splitboard_binding.breakage_details",
+          "optional": true
+        },
+        {
+          "question": {
+            "it": "Sei riuscito a risolverli?",
+            "en": "Were you able to resolve the issue?"
+          },
+          "type": "singlechoice",
+          "helpText": {},
+          "fieldName": "splitboard_binding.breakage_resolved",
+          "choices": {
+            "it": [
+              "Grazie all'azienda",
+              "Grazie al negozio",
+              "Fai da te",
+              "No",
+              "Altro"
+            ],
+            "en": [
+              "With the manufacturer",
+              "With the store",
+              "DIY",
+              "No",
+              "Other"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

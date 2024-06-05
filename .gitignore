@@ -1,0 +1,20 @@
+# We don't want lockfiles in stacks, as people could use a different package manager
+# This part will be removed by `remix.init`
+node_modules
+yarn-error.log
+
+/build
+/public/build
+.env
+
+/cypress/screenshots
+/cypress/videos
+/prisma/data.db
+/prisma/data.db-journal
+.DS_Store
+*/.DS_Store
+.vercel
+.DS_Store
+app/.DS_Store
+.DS_Store
+app/.DS_Store

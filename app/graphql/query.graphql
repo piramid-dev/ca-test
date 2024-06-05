@@ -1,0 +1,10 @@
+query allMovies($first: IntType, $skip: IntType) {
+  movies: allMovies(first: $first, skip: $skip) {
+    ... on MovieRecord {
+      ...movieCard
+    }
+  }
+  meta: _allMoviesMeta {
+    count
+  }
+}

@@ -43,7 +43,7 @@ export default defineConfig({
     tsconfigPaths(),
   ],
   ssr: {
-    external: [
+    noExternal: [
       '@phosphor-icons/react',
       'datocms-structured-text-generic-html-renderer',
       'datocms-structured-text-utils',

@@ -1,5 +1,7 @@
 import { createCookieSessionStorage } from '@remix-run/node'
-import invariant from 'tiny-invariant'
+// import invariant from 'tiny-invariant'
+
+const SESSION_SECRET = 'VuoEpUwjzS'
 
 type SessionData = {
   userId: string
@@ -16,7 +18,7 @@ type SessionFlashData = {
   error: string
 }
 
-invariant(process.env.SESSION_SECRET, 'SESSION_SECRET must be set')
+// invariant(process.env.SESSION_SECRET, 'SESSION_SECRET must be set')
 
 const { getSession, commitSession, destroySession } =
   createCookieSessionStorage<SessionData, SessionFlashData>({
@@ -27,7 +29,7 @@ const { getSession, commitSession, destroySession } =
       path: '/',
       sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
       secure: process.env.NODE_ENV === 'production',
-      secrets: [process.env.SESSION_SECRET],
+      secrets: [SESSION_SECRET],
     },
   })
 

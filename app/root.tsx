@@ -29,8 +29,6 @@ import type { ContextType } from '~/types/globalTypes'
 import { getLocale } from '~/utils'
 import { getMovieFilters } from '~/utils/movies'
 import { getDirectorFilters } from '~/utils/directors'
-import { datoQuerySubscription, loadFragments } from '~/lib/datocms'
-import { ResponsiveImageFragmentQuery } from '~/lib/generated'
 // import { useLocalizeLink } from '~/hooks/useLocalizeLink'
 // import { getUserCL, hasUserValidPassCL } from '~/utils/users'
 import { getSession } from '~/sessions'
@@ -64,12 +62,6 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   // const userAccessToken =
   //   (await getUserAccessToken(request)) || search.get('accessToken')
 
-  const fragments = loadFragments([ResponsiveImageFragmentQuery])
-
-  // If userid or accessToken are not present, redirect to the home page
-  const user = null
-  const validPass = false
-
   // if (userId && userAccessToken) {
   //   try {
   //     user = await getUserCL(userAccessToken, userId)
@@ -88,35 +80,11 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
     locale,
   })
 
-  //get scopes
-  const scopesQuery = `#graphql
-    query($locale: SiteLocale) {
-      allMovies: allMovies(locale: $locale, first: 100, orderBy: originalTitle_ASC){
-        id
-        slug
-        originalTitle
-        cover {
-          responsiveImage (
-              imgixParams: { fm: jpg }
-            ) {
-              ...responsiveImage
-            }
-        }
-      }
-    }
-    ${fragments}
-  `
-
-  const userEmail = ''
-
-  const datoQuerySub = await datoQuerySubscription({
-    request,
-    query: scopesQuery,
-    variables: { locale, email: userEmail },
-  })
-
-  const userDato = datoQuerySub.datoQuerySubscription.initialData.user
-  const common = datoQuerySub.datoQuerySubscription.initialData.common
+  // const datoQuerySub = await datoQuerySubscription({
+  //   request,
+  //   query: scopesQuery,
+  //   variables: { locale, email: userEmail },
+  // })
 
   const session = await getSession(request.headers.get('Cookie'))
 
@@ -125,9 +93,6 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
     directorFilters,
     locale,
     // @ts-ignore
-    user: user || userDato ? { ...user, ...userDato } : null,
-    validPass,
-    common,
     previewEnabled: session.has('preview'),
   })
 }

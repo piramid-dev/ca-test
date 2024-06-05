@@ -2,14 +2,12 @@ import type { LinksFunction, LoaderFunctionArgs } from '@remix-run/node'
 import {
   useLoaderData,
   Links,
-  LiveReload,
   Meta,
   Outlet,
   Scripts,
   ScrollRestoration,
   Form,
 } from '@remix-run/react'
-import { cssBundleHref } from '@remix-run/css-bundle'
 import { json } from '@remix-run/node'
 import { useChangeLanguage } from 'remix-i18next/react'
 import { useTranslation } from 'react-i18next'
@@ -24,7 +22,6 @@ import TagManager from 'react-gtm-module'
 
 // Types
 import type { IFilterData } from '~/types/filter.interface'
-import type { ContextType } from '~/types/globalTypes'
 // Utils
 import { getLocale } from '~/utils'
 import { getMovieFilters } from '~/utils/movies'
@@ -32,20 +29,18 @@ import { getDirectorFilters } from '~/utils/directors'
 // import { useLocalizeLink } from '~/hooks/useLocalizeLink'
 // import { getUserCL, hasUserValidPassCL } from '~/utils/users'
 import { getSession } from '~/sessions'
-import stylesheet from '~/tailwind.css'
 import { useIsBot } from './providers/isBot'
 
 // Components
 import SiteFooter from './components/Organisms/SiteFooter'
 import GlobalLoading from './components/Molecules/GlobalLoading'
-import SiteTopBar from './components/Organisms/SiteTopBar'
 import Button from './components/Atoms/Button'
 import Header from './components/Sections/Header'
 // Style
+import stylesheet from '~/tailwind.css?url'
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: stylesheet },
-  ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
 ]
 
 export const loader = async ({ request }: LoaderFunctionArgs) => {
@@ -99,14 +94,11 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
 
 export default function App() {
   // Get the locale from the loader
-  const { locale, user, validPass, common, previewEnabled } =
-    useLoaderData<typeof loader>()
+  const { locale, previewEnabled } = useLoaderData<typeof loader>()
 
   // const { l } = useLocalizeLink()
   const { i18n } = useTranslation()
-  const topMessage = common?.topMessage
   const isBot = useIsBot()
-  const { freePass } = user || {}
 
   // This hook will change the i18n instance language to the current locale
   // detected by the loader, this way, when we do something to change the
@@ -237,7 +229,6 @@ export default function App() {
       </head>
       <body className="h-full">
         <div id="main-wrapper">
-          {topMessage ? <SiteTopBar content={topMessage} /> : null}
           {previewEnabled ? (
             <Form
               method="get"
@@ -257,20 +248,14 @@ export default function App() {
           <Header isHome={isHome} />
           {isBot ? null : <GlobalLoading />}
           <Outlet
-            context={
-              {
-                navIsOpen: isInView && !isAtTop,
-                locale,
-                user,
-                isUser: !!user,
-                validPass: validPass || freePass,
-              } satisfies ContextType
-            }
+            context={{
+              navIsOpen: isInView && !isAtTop,
+              locale,
+            }}
           />
           <SiteFooter {...siteFooterProps} />
           <ScrollRestoration />
           {isBot ? null : <Scripts />}
-          <LiveReload />
         </div>
       </body>
     </html>

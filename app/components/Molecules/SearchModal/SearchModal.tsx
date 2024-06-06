@@ -163,18 +163,20 @@ const SearchModal: FC<SearchModalProps> = ({ showModal = true, onClose }) => {
                       <div className="flex max-lg:flex-col  overflow-hidden h-[70vh] lg:h-[550px]">
                         <div className="lg:w-3/12 max-lg:overflow-hidden">
                           <div className="max-lg:flex max-lg:items-center max-lg:overflow-auto max-lg:w-full max-lg:gap-x-1">
-                            {selectedCategories.map((el, i) => (
-                              <Tab
-                                extraClasses={classNames(
-                                  'w-full  lg:rounded-r-none',
-                                  { '!bg-dove': i === activeTab },
-                                )}
-                                onClick={() => setActiveTab(i)}
-                                key={i}
-                                label={t(`filtersLabels.${el.subject}`)}
-                                icon={filterIcons(el.subject)}
-                              />
-                            ))}
+                            {selectedCategories &&
+                              Array.isArray(selectedCategories) &&
+                              selectedCategories?.map((el, i) => (
+                                <Tab
+                                  extraClasses={classNames(
+                                    'w-full  lg:rounded-r-none',
+                                    { '!bg-dove': i === activeTab },
+                                  )}
+                                  onClick={() => setActiveTab(i)}
+                                  key={i}
+                                  label={t(`filtersLabels.${el.subject}`)}
+                                  icon={filterIcons(el.subject)}
+                                />
+                              ))}
                           </div>
                         </div>
                         <div
@@ -186,89 +188,91 @@ const SearchModal: FC<SearchModalProps> = ({ showModal = true, onClose }) => {
                               activeTab === selectedCategories.length - 1,
                           })}
                         >
-                          {selectedCategories.map((el, i) => (
-                            <div key={i}>
-                              {i === activeTab ? (
-                                <div className="overflow-y-auto h-full pb-6">
-                                  <div className="flex flex-wrap gap-x-2 gap-y-2 ">
-                                    {(() => {
-                                      return el.values
-                                        .map((item, idx) => {
-                                          // Count how many item per filter
-                                          const count = countItemsByFilter(
-                                            items,
-                                            el.subject,
-                                            item.name,
-                                          )
-
-                                          // Create the link for every filter
-                                          const link = l(
-                                            linkWithFilters(
+                          {selectedCategories &&
+                            Array.isArray(selectedCategories) &&
+                            selectedCategories?.map((el, i) => (
+                              <div key={i}>
+                                {i === activeTab ? (
+                                  <div className="overflow-y-auto h-full pb-6">
+                                    <div className="flex flex-wrap gap-x-2 gap-y-2 ">
+                                      {(() => {
+                                        return el.values
+                                          .map((item, idx) => {
+                                            // Count how many item per filter
+                                            const count = countItemsByFilter(
+                                              items,
                                               el.subject,
-                                              item.slug,
-                                            ),
-                                          )
+                                              item.name,
+                                            )
 
-                                          if (count > 0) {
-                                            switch (filterType(el.subject)) {
-                                              case 'category':
-                                                return (
-                                                  <Button
-                                                    key={idx}
-                                                    variant="dot"
-                                                    color={
-                                                      item?.color?.hex ||
-                                                      'black'
-                                                    }
-                                                    size="small"
-                                                    label={item.name}
-                                                    to={link}
-                                                    onClick={handleClose}
-                                                  />
-                                                )
+                                            // Create the link for every filter
+                                            const link = l(
+                                              linkWithFilters(
+                                                el.subject,
+                                                item.slug,
+                                              ),
+                                            )
 
-                                              case 'list':
-                                                return (
-                                                  <div
-                                                    key={idx}
-                                                    className="flex justify-between items-center w-full shrink-0"
-                                                  >
+                                            if (count > 0) {
+                                              switch (filterType(el.subject)) {
+                                                case 'category':
+                                                  return (
                                                     <Button
-                                                      color="black"
-                                                      variant="flat"
+                                                      key={idx}
+                                                      variant="dot"
+                                                      color={
+                                                        item?.color?.hex ||
+                                                        'black'
+                                                      }
                                                       size="small"
                                                       label={item.name}
                                                       to={link}
                                                       onClick={handleClose}
                                                     />
-                                                    <span className="body-xs text-black/70">
-                                                      {count}
-                                                    </span>
-                                                  </div>
-                                                )
+                                                  )
 
-                                              default:
-                                                return (
-                                                  <Button
-                                                    key={idx}
-                                                    size="small"
-                                                    label={item.name}
-                                                    to={link}
-                                                    onClick={handleClose}
-                                                  />
-                                                )
+                                                case 'list':
+                                                  return (
+                                                    <div
+                                                      key={idx}
+                                                      className="flex justify-between items-center w-full shrink-0"
+                                                    >
+                                                      <Button
+                                                        color="black"
+                                                        variant="flat"
+                                                        size="small"
+                                                        label={item.name}
+                                                        to={link}
+                                                        onClick={handleClose}
+                                                      />
+                                                      <span className="body-xs text-black/70">
+                                                        {count}
+                                                      </span>
+                                                    </div>
+                                                  )
+
+                                                default:
+                                                  return (
+                                                    <Button
+                                                      key={idx}
+                                                      size="small"
+                                                      label={item.name}
+                                                      to={link}
+                                                      onClick={handleClose}
+                                                    />
+                                                  )
+                                              }
+                                            } else {
+                                              return null
                                             }
-                                          } else {
-                                            return null
-                                          }
-                                        })
-                                        .filter((el) => el)
-                                    })()}
+                                          })
+                                          .filter((el) => el)
+                                      })()}
+                                    </div>
                                   </div>
-                                </div>
-                              ) : null}
-                            </div>
-                          ))}
+                                ) : null}
+                              </div>
+                            ))}
                         </div>
                       </div>
                     </div>

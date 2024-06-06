@@ -19,7 +19,6 @@ import TagManager from 'react-gtm-module'
 //   getUserId,
 // } from '~/session.server'
 // import SiteNav from '~/components/Organisms/SiteNav/SiteNav'
-
 // Types
 import type { IFilterData } from '~/types/filter.interface'
 // Utils
@@ -75,6 +74,8 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
     locale,
   })
 
+  console.log('---- movieFilters', movieFilters)
+
   // const datoQuerySub = await datoQuerySubscription({
   //   request,
   //   query: scopesQuery,
@@ -95,6 +96,11 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
 export default function App() {
   // Get the locale from the loader
   const { locale, previewEnabled } = useLoaderData<typeof loader>()
+
+  // let loaderData = useRouteLoaderData<typeof loader>('routes/($lang)')
+  // let locale = loaderData?.locale ?? 'en'
+
+  // console.log(loaderData, loaderData)
 
   // const { l } = useLocalizeLink()
   const { i18n } = useTranslation()

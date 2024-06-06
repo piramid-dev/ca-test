@@ -47,7 +47,8 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   const url = new URL(request.url)
   const baseUrl = url.origin
 
-  console.log('----->', locale)
+  console.log('locale ----->', locale)
+  console.log('baseUrl ---->', baseUrl)
 
   // const url = new URL(request.url)
   // const search = new URLSearchParams(url.search)

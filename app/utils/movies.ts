@@ -228,10 +228,18 @@ export const getMovies = async ({ baseUrl, locale, page, paramsString }) => {
 }
 
 // Get movie filters
-export const getMovieFilters = async ({ baseUrl, locale }) => {
+export const getMovieFilters = async ({
+  baseUrl,
+  locale,
+}: {
+  baseUrl: string
+  locale: string
+}) => {
   const filters: IFilterData[] = await fetch(
     `${baseUrl}/api/get-movie-filters/${locale}/`,
   ).then((res) => res.json())
+
+  console.log('---- api fetch: ', `${baseUrl}/api/get-movie-filters/${locale}/`)
 
   return filters
 }

@@ -75,9 +75,9 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   //   locale,
   // })
 
-  const testApi = await fetch(`${baseUrl}/api/test`).then((res) => res.json())
+  // const testApi = await fetch(`${baseUrl}/api/test`).then((res) => res.json())
 
-  console.log('testApi ----->', testApi)
+  // console.log('testApi ----->', testApi)
 
   // console.log('---- movieFilters', movieFilters)
 

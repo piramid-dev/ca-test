@@ -90,8 +90,8 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   const session = await getSession(request.headers.get('Cookie'))
 
   return json({
-    // movieFilters,
-    // directorFilters,
+    movieFilters: [],
+    directorFilters: [],
     locale,
     // @ts-ignore
     previewEnabled: session.has('preview'),

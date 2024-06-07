@@ -69,11 +69,11 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   // }
 
   // Get filters form the /api/get-movie-filters
-  // const movieFilters: IFilterData[] = await getMovieFilters({ baseUrl, locale })
-  // const directorFilters: IFilterData[] = await getDirectorFilters({
-  //   baseUrl,
-  //   locale,
-  // })
+  const movieFilters: IFilterData[] = await getMovieFilters({ baseUrl, locale })
+  const directorFilters: IFilterData[] = await getDirectorFilters({
+    baseUrl,
+    locale,
+  })
 
   // const testApi = await fetch(`${baseUrl}/api/test`).then((res) => res.json())
 
@@ -90,8 +90,8 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   const session = await getSession(request.headers.get('Cookie'))
 
   return json({
-    movieFilters: [],
-    directorFilters: [],
+    movieFilters,
+    directorFilters,
     locale,
     // @ts-ignore
     previewEnabled: session.has('preview'),

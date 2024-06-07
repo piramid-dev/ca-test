@@ -2,6 +2,8 @@ import { vitePlugin as remix } from '@remix-run/dev'
 import { installGlobals } from '@remix-run/node'
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
+// import ssr from '@vitejs/plugin-ssr'
+import { vercelPreset } from '@vercel/remix/vite'
 
 import routes from './app/pages/_routes.cjs'
 
@@ -15,6 +17,7 @@ export default defineConfig({
     remix({
       ignoredRouteFiles: ['**/*.css'],
       // ignoredRouteFiles: ['**/.*', '**/*.test.{js,jsx,ts,tsx}'],
+      presets: [vercelPreset()],
 
       // Routes
       routes: (defineRoutes) => {
@@ -39,8 +42,8 @@ export default defineConfig({
         })
       },
     }),
-
     tsconfigPaths(),
+    // ssr(),
   ],
   ssr: {
     noExternal: ['@phosphor-icons/react'],

@@ -1,3 +1,4 @@
+import { json } from '@remix-run/node'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import type { FilterValue } from '~/types/filter.interface'
 import { jsonFiltersToArray } from '~/lib/filter.utils'
@@ -17,5 +18,5 @@ export const loader = async ({ params }: LoaderFunctionArgs) => {
   const allFilters: FilterValue[] = { ...filters, alphabetic: allLetters }
   const filtersArray = jsonFiltersToArray(allFilters)
 
-  return filtersArray
+  return json(filtersArray)
 }

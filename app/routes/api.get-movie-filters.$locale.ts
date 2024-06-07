@@ -1,5 +1,6 @@
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { jsonFiltersToArray } from '~/lib/filter.utils'
+import { json } from '@remix-run/node'
 
 // @ts-ignore
 import movieFilters from '~/json/allMovieFilters.json'
@@ -9,5 +10,5 @@ export const loader = async ({ params }: LoaderFunctionArgs) => {
   const filters = movieFilters[locale]
   const filtersArray = jsonFiltersToArray(filters)
 
-  return filtersArray
+  return json(filtersArray)
 }

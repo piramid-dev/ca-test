@@ -100,7 +100,7 @@ export const countItemsByFilter = (
   filterValue: string,
 ) => {
   const itemsFound = items.filter((item) =>
-    item[filterName].includes(filterValue),
+    item[filterName]?.includes(filterValue),
   )
   return itemsFound?.length || 0
 }

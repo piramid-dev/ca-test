@@ -1,3 +1,4 @@
+import { json } from '@remix-run/node'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import type { MovieRecord } from '~/lib/generated'
 import { filterChecker, getFiltersFromQuery } from '~/lib/filter.utils'
@@ -54,5 +55,5 @@ export const loader = async ({ request, params }: LoaderFunctionArgs) => {
     )
   }
 
-  return { movies, page: parseInt(page), total: filteredMovies.length }
+  return json({ movies, page: parseInt(page), total: filteredMovies.length })
 }

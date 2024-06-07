@@ -48,7 +48,7 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   const baseUrl = url.origin
 
   console.log('locale ----->', locale)
-  console.log('baseUrl ---->', baseUrl)
+  console.log('baseUrl ----->', baseUrl)
 
   // const url = new URL(request.url)
   // const search = new URLSearchParams(url.search)
@@ -75,7 +75,7 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
     locale,
   })
 
-  console.log('---- movieFilters', movieFilters)
+  // console.log('---- movieFilters', movieFilters)
 
   // const datoQuerySub = await datoQuerySubscription({
   //   request,

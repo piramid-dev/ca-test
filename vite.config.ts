@@ -2,7 +2,7 @@ import { vitePlugin as remix } from '@remix-run/dev'
 import { installGlobals } from '@remix-run/node'
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
-import { vercelPreset } from '@vercel/remix/vite'
+// import { vercelPreset } from '@vercel/remix/vite'
 
 import routes from './app/pages/_routes.cjs'
 
@@ -15,7 +15,7 @@ export default defineConfig({
   plugins: [
     remix({
       ignoredRouteFiles: ['**/*.css'],
-      presets: [vercelPreset()],
+      // presets: [vercelPreset()],
 
       // Routes
       routes: (defineRoutes) => {

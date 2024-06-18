@@ -3,7 +3,7 @@ import type { LoaderFunctionArgs } from '@remix-run/node'
 import type { MovieRecord } from '~/lib/generated'
 import { filterChecker, getFiltersFromQuery } from '~/lib/filter.utils'
 // @ts-ignore
-import allMovies from '~/json/allMovies.json'
+import allMovies from './../json/allMovies.json'
 
 const MOVIES_PER_PAGE = 24
 

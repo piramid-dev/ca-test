@@ -3,7 +3,7 @@ import { jsonFiltersToArray } from '~/lib/filter.utils'
 import { json } from '@remix-run/node'
 
 // @ts-ignore
-import movieFilters from '~/json/allMovieFilters.json'
+import movieFilters from './../json/allMovieFilters.json'
 
 export const loader = async ({ params }: LoaderFunctionArgs) => {
   const { locale = 'it' } = params

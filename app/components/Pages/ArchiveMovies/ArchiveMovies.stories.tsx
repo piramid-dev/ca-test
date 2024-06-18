@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 // @ts-ignore
-import allMovies from '~/json/allMovies.json'
+import allMovies from './../json/allMovies.json'
 import ArchiveMovies from './ArchiveMovies'
 
 const meta = {

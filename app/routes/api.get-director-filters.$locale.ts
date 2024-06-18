@@ -4,7 +4,7 @@ import type { FilterValue } from '~/types/filter.interface'
 import { jsonFiltersToArray } from '~/lib/filter.utils'
 
 // @ts-ignore
-import directorFilters from '~/json/allDirectorFilters.json'
+import directorFilters from './../json/allDirectorFilters.json'
 
 export const loader = async ({ params }: LoaderFunctionArgs) => {
   const { locale = 'it' } = params

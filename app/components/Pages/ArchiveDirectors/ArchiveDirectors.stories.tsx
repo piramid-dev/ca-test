@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 // @ts-ignore
-import allDirectors from '~/json/allDirectors.json'
+import allDirectors from './../json/allDirectors.json'
 import ArchiveDirectors from './ArchiveDirectors'
 
 const meta = {

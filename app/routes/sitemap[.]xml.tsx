@@ -2,7 +2,7 @@
 
 // import routes from '~/pages/_routes.js'
 // // @ts-ignore
-// import products from '~/json/product.json'
+// import products from './../json/product.json'
 
 // type Route = {
 //   path: string

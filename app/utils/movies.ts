@@ -228,10 +228,25 @@ export const getMovies = async ({ baseUrl, locale, page, paramsString }) => {
 }
 
 // Get movie filters
-export const getMovieFilters = async ({ baseUrl, locale }) => {
-  const filters: IFilterData[] = await fetch(
-    `${baseUrl}/api/get-movie-filters/${locale}/`,
-  ).then((res) => res.json())
+export const getMovieFilters = async ({
+  baseUrl,
+  locale,
+}: {
+  baseUrl: string
+  locale: string
+}) => {
+  console.log('---- api fetch: ', `${baseUrl}/api/get-movie-filters/${locale}/`)
+  let filters: IFilterData[] = []
+  try {
+    filters = await fetch(`${baseUrl}/api/get-movie-filters/${locale}/`).then(
+      (res) => res.json(),
+    )
+  } catch (error) {
+    // Handle the error here
+    console.error('Error fetching movie filters:', error)
+  }
+
+  console.log('after fetch filters: ', filters)
 
   return filters
 }

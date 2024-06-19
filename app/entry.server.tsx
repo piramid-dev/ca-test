@@ -101,7 +101,8 @@ const isAuthorized = (request: Request) => {
 
   // If basic auth is not enabled, return true
   const BASIC_AUTH = process.env.BASIC_AUTH
-  if (!BASIC_AUTH) return true
+
+  if (!BASIC_AUTH || BASIC_AUTH !== 'true') return true
 
   const header = request.headers.get('Authorization')
 

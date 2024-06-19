@@ -1,8 +1,9 @@
+import { json } from '@remix-run/node'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import type { DirectorRecord } from '~/lib/generated'
 import { filterChecker, getFiltersFromQuery } from '~/lib/filter.utils'
 // @ts-ignore
-import allDirectors from '~/json/allDirectors.json'
+import allDirectors from './../json/allDirectors.json'
 
 export type DirectorsResponse = { data: DirectorRecord[]; page: number }
 
@@ -50,5 +51,9 @@ export const loader = async ({ request, params }: LoaderFunctionArgs) => {
     )
   }
 
-  return { directors, page: parseInt(page), total: filteredDirectors.length }
+  return json({
+    directors,
+    page: parseInt(page),
+    total: filteredDirectors.length,
+  })
 }

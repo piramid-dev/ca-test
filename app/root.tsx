@@ -2,14 +2,12 @@ import type { LinksFunction, LoaderFunctionArgs } from '@remix-run/node'
 import {
   useLoaderData,
   Links,
-  LiveReload,
   Meta,
   Outlet,
   Scripts,
   ScrollRestoration,
   Form,
 } from '@remix-run/react'
-import { cssBundleHref } from '@remix-run/css-bundle'
 import { json } from '@remix-run/node'
 import { useChangeLanguage } from 'remix-i18next/react'
 import { useTranslation } from 'react-i18next'
@@ -21,33 +19,27 @@ import TagManager from 'react-gtm-module'
 //   getUserId,
 // } from '~/session.server'
 // import SiteNav from '~/components/Organisms/SiteNav/SiteNav'
-
 // Types
 import type { IFilterData } from '~/types/filter.interface'
-import type { ContextType } from '~/types/globalTypes'
 // Utils
 import { getLocale } from '~/utils'
 import { getMovieFilters } from '~/utils/movies'
 import { getDirectorFilters } from '~/utils/directors'
-import { datoQuerySubscription, loadFragments } from '~/lib/datocms'
-import { ResponsiveImageFragmentQuery } from '~/lib/generated'
 // import { useLocalizeLink } from '~/hooks/useLocalizeLink'
 // import { getUserCL, hasUserValidPassCL } from '~/utils/users'
 import { getSession } from '~/sessions'
-import stylesheet from '~/tailwind.css'
 import { useIsBot } from './providers/isBot'
 
 // Components
 import SiteFooter from './components/Organisms/SiteFooter'
 import GlobalLoading from './components/Molecules/GlobalLoading'
-import SiteTopBar from './components/Organisms/SiteTopBar'
 import Button from './components/Atoms/Button'
 import Header from './components/Sections/Header'
 // Style
+import stylesheet from '~/tailwind.css?url'
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: stylesheet },
-  ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
 ]
 
 export const loader = async ({ request }: LoaderFunctionArgs) => {
@@ -55,7 +47,8 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   const url = new URL(request.url)
   const baseUrl = url.origin
 
-  console.log('----->', locale)
+  console.log('locale ----->', locale)
+  console.log('baseUrl ----->', baseUrl)
 
   // const url = new URL(request.url)
   // const search = new URLSearchParams(url.search)
@@ -63,12 +56,6 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   // const userEmail = (await getUserEmail(request)) || search.get('userEmail')
   // const userAccessToken =
   //   (await getUserAccessToken(request)) || search.get('accessToken')
-
-  const fragments = loadFragments([ResponsiveImageFragmentQuery])
-
-  // If userid or accessToken are not present, redirect to the home page
-  const user = null
-  const validPass = false
 
   // if (userId && userAccessToken) {
   //   try {
@@ -82,66 +69,47 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   // }
 
   // Get filters form the /api/get-movie-filters
-  const movieFilters: IFilterData[] = await getMovieFilters({ baseUrl, locale })
-  const directorFilters: IFilterData[] = await getDirectorFilters({
-    baseUrl,
-    locale,
-  })
+  // const movieFilters: IFilterData[] = await getMovieFilters({ baseUrl, locale })
+  // const directorFilters: IFilterData[] = await getDirectorFilters({
+  //   baseUrl,
+  //   locale,
+  // })
 
-  //get scopes
-  const scopesQuery = `#graphql
-    query($locale: SiteLocale) {
-      allMovies: allMovies(locale: $locale, first: 100, orderBy: originalTitle_ASC){
-        id
-        slug
-        originalTitle
-        cover {
-          responsiveImage (
-              imgixParams: { fm: jpg }
-            ) {
-              ...responsiveImage
-            }
-        }
-      }
-    }
-    ${fragments}
-  `
+  // const testApi = await fetch(`${baseUrl}/api/test`).then((res) => res.json())
 
-  const userEmail = ''
+  // console.log('testApi ----->', testApi)
 
-  const datoQuerySub = await datoQuerySubscription({
-    request,
-    query: scopesQuery,
-    variables: { locale, email: userEmail },
-  })
+  // console.log('---- movieFilters', movieFilters)
 
-  const userDato = datoQuerySub.datoQuerySubscription.initialData.user
-  const common = datoQuerySub.datoQuerySubscription.initialData.common
+  // const datoQuerySub = await datoQuerySubscription({
+  //   request,
+  //   query: scopesQuery,
+  //   variables: { locale, email: userEmail },
+  // })
 
   const session = await getSession(request.headers.get('Cookie'))
 
   return json({
-    movieFilters,
-    directorFilters,
+    movieFilters: [],
+    directorFilters: [],
     locale,
     // @ts-ignore
-    user: user || userDato ? { ...user, ...userDato } : null,
-    validPass,
-    common,
     previewEnabled: session.has('preview'),
   })
 }
 
 export default function App() {
   // Get the locale from the loader
-  const { locale, user, validPass, common, previewEnabled } =
-    useLoaderData<typeof loader>()
+  const { locale, previewEnabled } = useLoaderData<typeof loader>()
+
+  // let loaderData = useRouteLoaderData<typeof loader>('routes/($lang)')
+  // let locale = loaderData?.locale ?? 'en'
+
+  // console.log(loaderData, loaderData)
 
   // const { l } = useLocalizeLink()
   const { i18n } = useTranslation()
-  const topMessage = common?.topMessage
   const isBot = useIsBot()
-  const { freePass } = user || {}
 
   // This hook will change the i18n instance language to the current locale
   // detected by the loader, this way, when we do something to change the
@@ -225,20 +193,20 @@ export default function App() {
     [isScrollingBack, isAtTop],
   )
 
-  useEffect(() => {
-    // @ts-ignore
-    if (typeof lb_cs !== 'undefined') {
-      // @ts-ignore
-      lb_cs('6512b2863c3fe60019825432')
-    }
-  }, [])
+  // useEffect(() => {
+  //   // @ts-ignore
+  //   if (typeof lb_cs !== 'undefined') {
+  //     // @ts-ignore
+  //     lb_cs('6512b2863c3fe60019825432')
+  //   }
+  // }, [])
 
-  useEffect(() => {
-    const tagManagerArgs = {
-      gtmId: 'GTM-NDNN7NXF',
-    }
-    TagManager.initialize(tagManagerArgs)
-  }, [])
+  // useEffect(() => {
+  //   const tagManagerArgs = {
+  //     gtmId: 'GTM-NDNN7NXF',
+  //   }
+  //   TagManager.initialize(tagManagerArgs)
+  // }, [])
 
   return (
     <html lang={locale} dir={i18n.dir()} className="h-full">
@@ -272,7 +240,6 @@ export default function App() {
       </head>
       <body className="h-full">
         <div id="main-wrapper">
-          {topMessage ? <SiteTopBar content={topMessage} /> : null}
           {previewEnabled ? (
             <Form
               method="get"
@@ -292,20 +259,14 @@ export default function App() {
           <Header isHome={isHome} />
           {isBot ? null : <GlobalLoading />}
           <Outlet
-            context={
-              {
-                navIsOpen: isInView && !isAtTop,
-                locale,
-                user,
-                isUser: !!user,
-                validPass: validPass || freePass,
-              } satisfies ContextType
-            }
+            context={{
+              navIsOpen: isInView && !isAtTop,
+              locale,
+            }}
           />
           <SiteFooter {...siteFooterProps} />
           <ScrollRestoration />
           {isBot ? null : <Scripts />}
-          <LiveReload />
         </div>
       </body>
     </html>

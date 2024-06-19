@@ -8,7 +8,9 @@ export const loader = async ({ request, params }: LoaderFunctionArgs) => {
 
   console.log(`${baseUrl}/api/test`)
 
-  const testApi = await fetch(`${baseUrl}/api/test`).then((res) => res.json())
+  const testApi = await fetch(
+    `https://jsonplaceholder.typicode.com/todos/1`,
+  ).then((res) => res.json())
 
   return { testApi }
 }
@@ -21,7 +23,7 @@ const Test = () => {
 
   return (
     <div>
-      <h1 className="py-16">Hello API</h1>
+      <h1 className="py-16">Hello API 2</h1>
     </div>
   )
 }

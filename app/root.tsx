@@ -193,20 +193,20 @@ export default function App() {
     [isScrollingBack, isAtTop],
   )
 
-  useEffect(() => {
-    // @ts-ignore
-    if (typeof lb_cs !== 'undefined') {
-      // @ts-ignore
-      lb_cs('6512b2863c3fe60019825432')
-    }
-  }, [])
+  // useEffect(() => {
+  //   // @ts-ignore
+  //   if (typeof lb_cs !== 'undefined') {
+  //     // @ts-ignore
+  //     lb_cs('6512b2863c3fe60019825432')
+  //   }
+  // }, [])
 
-  useEffect(() => {
-    const tagManagerArgs = {
-      gtmId: 'GTM-NDNN7NXF',
-    }
-    TagManager.initialize(tagManagerArgs)
-  }, [])
+  // useEffect(() => {
+  //   const tagManagerArgs = {
+  //     gtmId: 'GTM-NDNN7NXF',
+  //   }
+  //   TagManager.initialize(tagManagerArgs)
+  // }, [])
 
   return (
     <html lang={locale} dir={i18n.dir()} className="h-full">
